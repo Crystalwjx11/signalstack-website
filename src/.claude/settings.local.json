@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/jiaxinwang/Desktop/cusor/ai-personal-website/**)",
+      "Bash(npm run build:*)",
+      "WebSearch",
+      "Bash(npm run dev:*)",
+      "Read(//var/folders/rg/gv98hfms2nqfq3jy5y2_wvj80000gn/T/TemporaryItems/NSIRD_screencaptureui_dru5uN/**)",
+      "Bash(curl:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

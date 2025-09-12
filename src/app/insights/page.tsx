@@ -74,9 +74,9 @@ export default function Insights() {
             <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">Data Annotation</span>
             <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">AI Quality</span>
           </div>
-          <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105">
+          <a href="/insights/data-shapes-personality" className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105">
             Read Full Article
-          </button>
+          </a>
         </div>
       </section>
 
@@ -104,9 +104,9 @@ export default function Insights() {
                 <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">Preference Modeling</span>
                 <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">UX Research</span>
               </div>
-              <button className="text-cyan-400 text-sm font-medium hover:text-cyan-300 transition-colors">
+              <a href="/projects/preference-modeling" className="text-cyan-400 text-sm font-medium hover:text-cyan-300 transition-colors">
                 Read More →
-              </button>
+              </a>
             </div>
           </article>
 
@@ -129,9 +129,9 @@ export default function Insights() {
                 <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">Product Strategy</span>
                 <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">AI Ethics</span>
               </div>
-              <button className="text-blue-400 text-sm font-medium hover:text-blue-300 transition-colors">
+              <a href="/insights/human-centered-ai-strategy" className="text-blue-400 text-sm font-medium hover:text-blue-300 transition-colors">
                 Read More →
-              </button>
+              </a>
             </div>
           </article>
 
@@ -154,9 +154,9 @@ export default function Insights() {
                 <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Data Science</span>
                 <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Human Values</span>
               </div>
-              <button className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
+              <a href="/insights/data-shapes-personality" className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
                 Read More →
-              </button>
+              </a>
             </div>
           </article>
 
@@ -179,9 +179,9 @@ export default function Insights() {
                 <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Program Management</span>
                 <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Leadership</span>
               </div>
-              <button className="text-pink-400 text-sm font-medium hover:text-pink-300 transition-colors">
+              <a href="/insights/ai-personality-experiment" className="text-pink-400 text-sm font-medium hover:text-pink-300 transition-colors">
                 Read More →
-              </button>
+              </a>
             </div>
           </article>
         </div>

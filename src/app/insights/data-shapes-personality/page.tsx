@@ -261,11 +261,11 @@ export default function DataShapesPersonality() {
             and shaping longer-term model personality?
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/#connect" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 text-center">
-              Share Your Thoughts
+            <a href="/insights/human-centered-ai-strategy" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 text-center">
+              Read: Human-Centered AI Strategy
             </a>
-            <a href="/insights" className="border-2 border-gray-400 text-gray-300 px-8 py-3 rounded-xl font-semibold hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-105 text-center">
-              Read More Insights
+            <a href="/#connect" className="border-2 border-gray-400 text-gray-300 px-8 py-3 rounded-xl font-semibold hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-105 text-center">
+              Share Your Thoughts
             </a>
           </div>
         </div>

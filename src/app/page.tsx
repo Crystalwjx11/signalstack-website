@@ -122,9 +122,9 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-16 text-white">
           What I'm Exploring
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {/* Human Preferences */}
-          <div className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-6 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
+          <a href="/projects/preference-modeling" className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-6 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105 block cursor-pointer">
             <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4">
               <span className="text-xl">🧠</span>
             </div>
@@ -142,10 +142,10 @@ export default function Home() {
                 even when asking the same question. Current preference modeling often misses this nuance.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Subjective Truth */}
-          <div className="group bg-gradient-to-br from-blue-900/20 to-blue-800/10 backdrop-blur-sm p-6 rounded-2xl border border-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-105">
+          <a href="/insights/data-shapes-personality" className="group bg-gradient-to-br from-blue-900/20 to-blue-800/10 backdrop-blur-sm p-6 rounded-2xl border border-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-105 block cursor-pointer">
             <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-xl flex items-center justify-center mb-4">
               <span className="text-xl">⚖️</span>
             </div>
@@ -163,10 +163,10 @@ export default function Home() {
                 might have 5 equally valid "correct" responses, each reflecting different human values and preferences.
               </p>
             </div>
-          </div>
+          </a>
 
           {/* Product Strategy */}
-          <div className="group bg-gradient-to-br from-green-900/20 to-emerald-800/10 backdrop-blur-sm p-6 rounded-2xl border border-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
+          <a href="/insights/human-centered-ai-strategy" className="group bg-gradient-to-br from-green-900/20 to-emerald-800/10 backdrop-blur-sm p-6 rounded-2xl border border-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105 block cursor-pointer">
             <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mb-4">
               <span className="text-xl">🎯</span>
             </div>
@@ -184,7 +184,7 @@ export default function Home() {
                 This shift transforms everything from product roadmaps to success metrics.
               </p>
             </div>
-          </div>
+          </a>
         </div>
       </section>
 
@@ -195,7 +195,7 @@ export default function Home() {
         </h2>
         <div className="grid md:grid-cols-2 gap-8 mb-16">
           {/* Data Annotation Case Study */}
-          <div className="group bg-gradient-to-br from-cyan-900/20 to-cyan-800/10 backdrop-blur-sm p-8 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105">
+          <div className="group bg-gradient-to-br from-cyan-900/20 to-cyan-800/10 backdrop-blur-sm p-8 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 hover:bg-cyan-900/30 transition-all duration-300 hover:scale-105 relative z-10">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-cyan-400 font-mono text-sm">CASE_STUDY</span>
@@ -206,15 +206,21 @@ export default function Home() {
             <p className="text-gray-300 mb-6 leading-relaxed">
               Through hands-on data annotation work, I discovered that "good AI" isn't about universal correctness—it's about understanding diverse human perspectives. When experts disagree on the "right" answer, we're seeing human values at work, not data quality issues.
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-sm">Human Preferences</span>
               <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-sm">Data Annotation</span>
               <span className="px-3 py-1 bg-cyan-500/20 text-cyan-300 rounded-full text-sm">AI Quality</span>
             </div>
+            <a href="/insights/data-shapes-personality" className="inline-flex items-center bg-gradient-to-r from-cyan-600 to-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-cyan-500 hover:to-blue-500 transition-all duration-300 hover:scale-105">
+              Read Case Study
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
 
           {/* Preference Modeling Framework */}
-          <div className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-8 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
+          <div className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-8 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 hover:bg-purple-900/30 transition-all duration-300 hover:scale-105 relative z-10">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-purple-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-purple-400 font-mono text-sm">FRAMEWORK</span>
@@ -225,15 +231,21 @@ export default function Home() {
             <p className="text-gray-300 mb-6 leading-relaxed">
               Developing frameworks that capture nuanced, context-dependent human preferences rather than flattening them into binary metrics. These systems understand that the "best" AI response varies by user, situation, and cultural context.
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">Preference Modeling</span>
               <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">Context Analysis</span>
               <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">User Research</span>
             </div>
+            <a href="/projects/preference-modeling" className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105">
+              View Framework
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
 
           {/* AI Strategy Work */}
-          <div className="group bg-gradient-to-br from-green-900/20 to-emerald-800/10 backdrop-blur-sm p-8 rounded-2xl border border-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
+          <div className="group bg-gradient-to-br from-green-900/20 to-emerald-800/10 backdrop-blur-sm p-8 rounded-2xl border border-green-500/20 hover:border-green-400/50 hover:bg-green-900/30 transition-all duration-300 hover:scale-105 relative z-10">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-green-400 font-mono text-sm">STRATEGY</span>
@@ -244,15 +256,21 @@ export default function Home() {
             <p className="text-gray-300 mb-6 leading-relaxed">
               Applying program management principles to AI development, creating strategies where technology adapts to human needs. Building roadmaps that prioritize human values alongside technical capabilities.
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Product Strategy</span>
               <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">Program Management</span>
               <span className="px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm">AI Ethics</span>
             </div>
+            <a href="/insights/human-centered-ai-strategy" className="inline-flex items-center bg-gradient-to-r from-green-600 to-emerald-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-green-500 hover:to-emerald-500 transition-all duration-300 hover:scale-105">
+              Read Strategy Guide
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
 
           {/* Tech Industry Insights */}
-          <div className="group bg-gradient-to-br from-pink-900/20 to-pink-800/10 backdrop-blur-sm p-8 rounded-2xl border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:scale-105">
+          <div className="group bg-gradient-to-br from-pink-900/20 to-pink-800/10 backdrop-blur-sm p-8 rounded-2xl border border-pink-500/20 hover:border-pink-400/50 hover:bg-pink-900/30 transition-all duration-300 hover:scale-105 relative z-10">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-pink-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-pink-400 font-mono text-sm">INSIGHTS</span>
@@ -263,18 +281,24 @@ export default function Home() {
             <p className="text-gray-300 mb-6 leading-relaxed">
               Leveraging years of program management experience in tech to identify patterns in how AI is reshaping product development, team dynamics, and user expectations across the industry.
             </p>
-            <div className="flex flex-wrap gap-2">
+            <div className="flex flex-wrap gap-2 mb-6">
               <span className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm">Industry Analysis</span>
               <span className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm">Tech Leadership</span>
               <span className="px-3 py-1 bg-pink-500/20 text-pink-300 rounded-full text-sm">AI Adoption</span>
             </div>
+            <a href="/insights/ai-personality-experiment" className="inline-flex items-center bg-gradient-to-r from-pink-600 to-red-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-pink-500 hover:to-red-500 transition-all duration-300 hover:scale-105">
+              View Analysis
+              <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
           </div>
         </div>
 
         {/* Current Projects Preview */}
         <div className="text-center">
           <h3 className="text-2xl font-bold text-white mb-6">Currently Building</h3>
-          <div className="bg-gradient-to-r from-gray-800/40 to-gray-700/40 backdrop-blur-sm rounded-2xl p-8 border border-gray-600/20">
+          <a href="/projects/case-studies" className="block bg-gradient-to-r from-gray-800/40 to-gray-700/40 backdrop-blur-sm rounded-2xl p-8 border border-gray-600/20 hover:border-yellow-400/50 transition-all duration-300 hover:scale-105 cursor-pointer">
             <div className="flex items-center justify-center mb-4">
               <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse mr-2"></div>
               <span className="text-yellow-400 font-mono text-sm">IN_DEVELOPMENT</span>
@@ -284,10 +308,10 @@ export default function Home() {
               Developing frameworks and tools that help AI teams better understand and integrate human preferences into their systems. 
               Open to collaborations and conversations about human-centered AI approaches.
             </p>
-            <div className="text-sm text-gray-400 font-mono">
-              // Stay tuned for detailed case studies and tools
+            <div className="text-sm text-yellow-400 font-mono hover:text-yellow-300 transition-colors">
+              View Case Studies & Tools →
             </div>
-          </div>
+          </a>
         </div>
       </section>
 

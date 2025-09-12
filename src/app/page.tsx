@@ -49,9 +49,9 @@ export default function Home() {
       <section className="relative z-10 max-w-5xl mx-auto px-8 py-24 text-center">
         <div className="mb-12">
           <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-8">
-            <span className="block text-white">Learning AI</span>
+            <span className="block text-white">Building</span>
             <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              in Public
+              Human-Centric AI
             </span>
           </h1>
         </div>
@@ -59,23 +59,53 @@ export default function Home() {
         {/* Clear Purpose Statement */}
         <div className="text-xl text-gray-300 mb-16 max-w-4xl mx-auto">
           <p className="mb-6">
-            Following my curiosity about human-centered AI development. As a program manager in tech, I'm documenting 
-            my quest to understand how AI can truly serve humanity—and sharing what I discover along the way.
+            <strong className="text-white">Curiosity-driven program manager</strong> who bridges technology and human needs. 
+            I solve complex problems by asking the right questions, thinking creatively about AI systems, 
+            and ensuring technology serves people—not the other way around.
           </p>
           <p className="text-lg text-gray-400">
-            This journey started with a simple question during data annotation work: when experts disagree, who's "right"? 
-            That question opened up everything I'm exploring now about human preferences, AI quality, and what it means to build technology for people.
+            My approach combines <strong className="text-cyan-300">analytical problem-solving</strong> with 
+            <strong className="text-purple-300"> creative exploration</strong> and 
+            <strong className="text-pink-300"> genuine curiosity</strong> about how AI can enhance human potential. 
+            I turn complex technical challenges into human-centered solutions.
           </p>
         </div>
         
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-          <a href="/insights" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
-            Follow My Learning
+          <a href="/projects" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
+            View My Work
           </a>
-          <a href="/projects" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
-            See What I'm Building
+          <a href="/insights" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
+            Read My Thinking
           </a>
+        </div>
+        
+        {/* Skills Highlight */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="group bg-gradient-to-br from-cyan-900/20 to-cyan-800/10 backdrop-blur-sm p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105">
+            <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center mb-4">
+              <span className="text-xl">🔍</span>
+            </div>
+            <h3 className="text-lg font-bold text-cyan-300 mb-2">Analytical Problem-Solving</h3>
+            <p className="text-sm text-gray-300">Breaking down complex AI challenges into actionable insights and solutions</p>
+          </div>
+          
+          <div className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-6 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
+            <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4">
+              <span className="text-xl">🎨</span>
+            </div>
+            <h3 className="text-lg font-bold text-purple-300 mb-2">Creative Exploration</h3>
+            <p className="text-sm text-gray-300">Finding innovative approaches to human-AI interaction and preference modeling</p>
+          </div>
+          
+          <div className="group bg-gradient-to-br from-pink-900/20 to-pink-800/10 backdrop-blur-sm p-6 rounded-2xl border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:scale-105">
+            <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center mb-4">
+              <span className="text-xl">❓</span>
+            </div>
+            <h3 className="text-lg font-bold text-pink-300 mb-2">Genuine Curiosity</h3>
+            <p className="text-sm text-gray-300">Asking the questions others miss and exploring the 'why' behind AI behavior</p>
+          </div>
         </div>
         
         {/* AI Status Indicator */}

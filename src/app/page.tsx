@@ -52,9 +52,8 @@ export default function Home() {
             <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-pink-400 group-hover:w-full transition-all duration-300"></div>
           </div>
           <div className="relative group">
-            <a href="#connect" className="text-gray-400 hover:text-green-400 font-medium text-sm tracking-wider transition-colors duration-300 flex items-center">
+            <a href="#connect" className="text-gray-400 hover:text-green-400 font-medium text-sm tracking-wider transition-colors duration-300">
               CONNECT
-              <span className="ml-1 text-xs">🤝</span>
             </a>
             <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-400 group-hover:w-full transition-all duration-300"></div>
           </div>
@@ -85,11 +84,11 @@ export default function Home() {
         
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-          <a href="/projects" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
-            View My Work
+          <a href="/projects#demo-section" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
+            Watch Demo: AI Training Explained
           </a>
-          <a href="/insights" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
-            Read My Thinking
+          <a href="/insights/ai-personality-experiment" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
+            Read: LLM Personality Study
           </a>
         </div>
         
@@ -304,14 +303,14 @@ export default function Home() {
           
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-yellow-500/10 rounded-lg p-4 border border-yellow-500/20">
-              <h3 className="text-lg font-semibold text-yellow-300 mb-2">🤔 This Week's Question</h3>
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">This Week's Question</h3>
               <p className="text-gray-300 text-sm">
                 "How do we measure AI 'helpfulness' when different people need completely different things from the same query?"
               </p>
             </div>
             
             <div className="bg-orange-500/10 rounded-lg p-4 border border-orange-500/20">
-              <h3 className="text-lg font-semibold text-orange-300 mb-2">🔍 Current Experiment</h3>
+              <h3 className="text-lg font-semibold text-orange-300 mb-2">Current Experiment</h3>
               <p className="text-gray-300 text-sm">
                 Testing how context changes what people consider "accurate" vs "useful" in AI responses.
               </p>
@@ -323,7 +322,7 @@ export default function Home() {
               href="/projects#demo-section" 
               className="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-500 hover:to-purple-500 transition-all duration-300 hover:scale-105 text-sm"
             >
-              🎥 Watch My Latest Demo
+              Watch My Latest Demo
             </a>
           </div>
           

@@ -50,15 +50,15 @@ export default function Projects() {
         <div className="flex items-center justify-center space-x-6 text-sm">
           <div className="flex items-center space-x-2">
             <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-            <span className="text-green-400 font-mono">ACTIVE_PROJECTS: 3</span>
-          </div>
-          <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-yellow-400 rounded-full animate-pulse"></div>
-            <span className="text-yellow-400 font-mono">IN_DEVELOPMENT: 2</span>
+            <span className="text-green-400 font-mono">LIVE_DEMOS: 1</span>
           </div>
           <div className="flex items-center space-x-2">
             <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
-            <span className="text-cyan-400 font-mono">FRAMEWORKS: 4</span>
+            <span className="text-cyan-400 font-mono">CASE_STUDIES: 1</span>
+          </div>
+          <div className="flex items-center space-x-2">
+            <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
+            <span className="text-purple-400 font-mono">OPEN_SOURCE: 1</span>
           </div>
         </div>
       </section>
@@ -143,7 +143,7 @@ export default function Projects() {
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           {/* Project 1: Data Annotation Insights */}
-          <div className="group bg-gradient-to-br from-cyan-900/20 to-cyan-800/10 backdrop-blur-sm p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105">
+          <a href="/insights/ai-personality-experiment" className="group bg-gradient-to-br from-cyan-900/20 to-cyan-800/10 backdrop-blur-sm p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105 block">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-cyan-400 font-mono text-sm">CASE_STUDY</span>
@@ -158,16 +158,37 @@ export default function Projects() {
               <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">Data Science</span>
               <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">Quality Metrics</span>
             </div>
-            <button className="text-cyan-400 text-sm font-medium hover:text-cyan-300 transition-colors">
+            <div className="text-cyan-400 text-sm font-medium hover:text-cyan-300 transition-colors">
               Read Case Study →
-            </button>
-          </div>
+            </div>
+          </a>
 
-          {/* Project 2: AI Product Strategy */}
-          <div className="group bg-gradient-to-br from-green-900/20 to-emerald-800/10 backdrop-blur-sm p-6 rounded-2xl border border-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105">
+          {/* Project 2: Live Demo */}
+          <a href="#demo-section" className="group bg-gradient-to-br from-green-900/20 to-emerald-800/10 backdrop-blur-sm p-6 rounded-2xl border border-green-500/20 hover:border-green-400/50 transition-all duration-300 hover:scale-105 block">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse mr-3"></div>
-              <span className="text-green-400 font-mono text-sm">FRAMEWORK</span>
+              <span className="text-green-400 font-mono text-sm">LIVE_DEMO</span>
+            </div>
+            <h3 className="text-xl font-bold text-white mb-3">
+              AI Toolbox Demo
+            </h3>
+            <p className="text-gray-300 text-sm mb-4 leading-relaxed">
+              Watch me demonstrate a practical AI toolbox that showcases user-friendly design and real-world application.
+            </p>
+            <div className="flex flex-wrap gap-1 mb-4">
+              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">AI Tools</span>
+              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Demo Video</span>
+            </div>
+            <div className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
+              Watch Demo →
+            </div>
+          </a>
+
+          {/* Project 3: Framework */}
+          <div className="group bg-gradient-to-br from-blue-900/20 to-blue-800/10 backdrop-blur-sm p-6 rounded-2xl border border-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-105 cursor-pointer">
+            <div className="flex items-center mb-4">
+              <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse mr-3"></div>
+              <span className="text-blue-400 font-mono text-sm">FRAMEWORK</span>
             </div>
             <h3 className="text-xl font-bold text-white mb-3">
               Human-Centered AI Strategy
@@ -176,97 +197,76 @@ export default function Projects() {
               A strategic framework for building AI products that prioritize human values alongside technical capabilities.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Product Strategy</span>
-              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">PM Framework</span>
+              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">Product Strategy</span>
+              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">PM Framework</span>
             </div>
-            <button className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
-              View Framework →
-            </button>
+            <div className="text-blue-400 text-sm font-medium hover:text-blue-300 transition-colors">
+              Coming Soon →
+            </div>
           </div>
 
-          {/* Project 3: Context-Aware Systems */}
-          <div className="group bg-gradient-to-br from-blue-900/20 to-blue-800/10 backdrop-blur-sm p-6 rounded-2xl border border-blue-500/20 hover:border-blue-400/50 transition-all duration-300 hover:scale-105">
-            <div className="flex items-center mb-4">
-              <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse mr-3"></div>
-              <span className="text-blue-400 font-mono text-sm">RESEARCH</span>
-            </div>
-            <h3 className="text-xl font-bold text-white mb-3">
-              Context-Aware AI Systems
-            </h3>
-            <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-              Building AI that understands situational context to provide more relevant and helpful responses.
-            </p>
-            <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">Context Modeling</span>
-              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">AI Architecture</span>
-            </div>
-            <button className="text-blue-400 text-sm font-medium hover:text-blue-300 transition-colors">
-              Learn More →
-            </button>
-          </div>
-
-          {/* Project 4: Industry Analysis */}
-          <div className="group bg-gradient-to-br from-pink-900/20 to-pink-800/10 backdrop-blur-sm p-6 rounded-2xl border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:scale-105">
+          {/* Project 4: GitHub Repository */}
+          <a href="https://github.com/Crystalwjx11/signalstack-website" target="_blank" rel="noopener noreferrer" className="group bg-gradient-to-br from-pink-900/20 to-pink-800/10 backdrop-blur-sm p-6 rounded-2xl border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:scale-105 block">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-pink-400 rounded-full animate-pulse mr-3"></div>
-              <span className="text-pink-400 font-mono text-sm">ANALYSIS</span>
+              <span className="text-pink-400 font-mono text-sm">OPEN_SOURCE</span>
             </div>
             <h3 className="text-xl font-bold text-white mb-3">
-              AI Transformation Patterns
+              SignalStack Website
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-              How AI is reshaping product development workflows and team dynamics across the tech industry.
+              The source code for this website built with Next.js, showcasing modern web development and AI-forward design patterns.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Industry Analysis</span>
-              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Trends</span>
+              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Next.js</span>
+              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">TypeScript</span>
             </div>
-            <button className="text-pink-400 text-sm font-medium hover:text-pink-300 transition-colors">
-              Read Analysis →
-            </button>
-          </div>
+            <div className="text-pink-400 text-sm font-medium hover:text-pink-300 transition-colors">
+              View on GitHub →
+            </div>
+          </a>
 
-          {/* Project 5: Coming Soon */}
-          <div className="group bg-gradient-to-br from-yellow-900/20 to-yellow-800/10 backdrop-blur-sm p-6 rounded-2xl border border-yellow-500/20 hover:border-yellow-400/50 transition-all duration-300 hover:scale-105">
+          {/* Project 5: Insights Blog */}
+          <a href="/insights" className="group bg-gradient-to-br from-yellow-900/20 to-yellow-800/10 backdrop-blur-sm p-6 rounded-2xl border border-yellow-500/20 hover:border-yellow-400/50 transition-all duration-300 hover:scale-105 block">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-yellow-400 rounded-full animate-pulse mr-3"></div>
-              <span className="text-yellow-400 font-mono text-sm">IN_DEVELOPMENT</span>
+              <span className="text-yellow-400 font-mono text-sm">INSIGHTS</span>
             </div>
             <h3 className="text-xl font-bold text-white mb-3">
-              AI Ethics Toolkit
+              AI Insights & Analysis
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-              Practical tools and frameworks for implementing ethical AI practices in product development teams.
+              Deep dives into AI development, human preference modeling, and building better AI systems through thoughtful analysis.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs">AI Ethics</span>
-              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs">Tools</span>
+              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs">Analysis</span>
+              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs">Blog Posts</span>
             </div>
-            <div className="text-yellow-400 text-sm font-medium">
-              Coming Q2 2025
+            <div className="text-yellow-400 text-sm font-medium hover:text-yellow-300 transition-colors">
+              Read Insights →
             </div>
-          </div>
+          </a>
 
-          {/* Project 6: Open Source */}
-          <div className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-6 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
+          {/* Project 6: Connect */}
+          <a href="/#connect" className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-6 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105 block">
             <div className="flex items-center mb-4">
               <div className="w-3 h-3 bg-purple-400 rounded-full animate-pulse mr-3"></div>
-              <span className="text-purple-400 font-mono text-sm">OPEN_SOURCE</span>
+              <span className="text-purple-400 font-mono text-sm">CONNECT</span>
             </div>
             <h3 className="text-xl font-bold text-white mb-3">
-              Preference Modeling Library
+              Let's Collaborate
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-              Open-source Python library for implementing context-aware preference modeling in AI systems.
+              Interested in discussing AI, human-centered design, or potential collaborations? I'd love to connect.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">Python</span>
-              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">Open Source</span>
+              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">Collaboration</span>
+              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">Contact</span>
             </div>
-            <button className="text-purple-400 text-sm font-medium hover:text-purple-300 transition-colors">
-              View on GitHub →
-            </button>
-          </div>
+            <div className="text-purple-400 text-sm font-medium hover:text-purple-300 transition-colors">
+              Get in Touch →
+            </div>
+          </a>
         </div>
       </section>
 

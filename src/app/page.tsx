@@ -383,12 +383,12 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-white">Crystal Wang</h3>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                Program manager with deep experience in tech, now focused on the intersection of human psychology and AI systems. 
-                My journey from traditional PM work to AI began through data annotation—where I discovered that "good AI" is fundamentally about understanding human values, not just optimizing metrics.
+                I used to think AI was about perfect algorithms. Then I started doing data annotation work and realized something: 
+                the "experts" disagreed on what made responses good. A lot.
               </p>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                I bring a unique perspective to AI development: combining years of program management experience with insights about human preference complexity. 
-                This helps me identify opportunities others miss and build systems that truly serve human needs.
+                That disagreement isn't noise—it's the signal. It's where the real work is. 
+                Now I'm building systems that understand human complexity instead of flattening it away.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="px-4 py-2 bg-cyan-500/20 text-cyan-300 rounded-full text-sm font-medium">Program Management</span>

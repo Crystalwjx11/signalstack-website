@@ -113,14 +113,24 @@ export default function AIPersonalityExperiment() {
             </div>
           </div>
 
-          {/* Image Placeholder */}
-          <div className="bg-gradient-to-br from-gray-800/40 to-gray-700/30 backdrop-blur-sm rounded-2xl p-8 border border-gray-600/20 mb-8 text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-cyan-400 to-purple-400 rounded-xl flex items-center justify-center mx-auto mb-4">
-              <span className="text-2xl">📊</span>
+          {/* Experiment Results Table */}
+          <div className="bg-gradient-to-br from-gray-800/40 to-gray-700/30 backdrop-blur-sm rounded-2xl p-8 border border-gray-600/20 mb-8">
+            <div className="text-center mb-6">
+              <h3 className="text-xl font-bold text-white mb-2">Experiment Results</h3>
+              <p className="text-gray-400 text-sm">How three AIs evaluated the same 5 questionable responses</p>
             </div>
-            <p className="text-gray-400 text-sm">
-              [Experiment Results Chart - Upload your image here]
-            </p>
+            <div className="overflow-hidden rounded-xl border border-gray-600/30">
+              <img 
+                src="/ai-experiment-results.png" 
+                alt="Table showing AI evaluation results - ChatGPT, Claude, and Gemini disagreed on every single prompt, revealing distinct personality patterns in their accuracy judgments"
+                className="w-full h-auto"
+              />
+            </div>
+            <div className="mt-4 text-center">
+              <p className="text-xs text-gray-400">
+                Each AI showed consistent patterns: ChatGPT (flexible), Claude (strict), Gemini (precise fact-checker)
+              </p>
+            </div>
           </div>
 
           {/* AI Personalities */}

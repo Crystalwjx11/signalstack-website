@@ -12,7 +12,7 @@ export default function Projects() {
 
       {/* Header */}
       <nav className="relative z-10 flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <a href="/" className="text-2xl font-bold text-blue-500 hover:text-blue-400 transition-all duration-300 cursor-pointer">
+        <a href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer">
           SIGNALSTACK
         </a>
         <div className="flex space-x-8">

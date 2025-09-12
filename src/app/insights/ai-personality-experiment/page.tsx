@@ -1,3 +1,5 @@
+'use client'
+
 export default function AIPersonalityExperiment() {
   return (
     <main className="min-h-screen bg-black text-white overflow-hidden relative">
@@ -124,7 +126,7 @@ export default function AIPersonalityExperiment() {
                 src="/ai-experiment-results.png" 
                 alt="Experiment results showing ChatGPT, Claude, and Gemini disagreed on every single evaluation, with distinct patterns: ChatGPT (flexible), Claude (strict), Gemini (precise)"
                 className="w-full h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
-                onClick="window.open('/ai-experiment-results.png', '_blank')"
+                onClick={() => window.open('/ai-experiment-results.png', '_blank')}
               />
             </div>
             <div className="mt-6">
@@ -150,7 +152,7 @@ export default function AIPersonalityExperiment() {
                 rel="noopener noreferrer"
                 className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-medium"
               >
-                📊 View Full Dataset →
+                View Full Dataset →
               </a>
             </div>
           </div>
@@ -204,7 +206,7 @@ export default function AIPersonalityExperiment() {
           <div className="bg-gradient-to-br from-pink-900/30 to-pink-800/20 backdrop-blur-sm rounded-2xl p-8 border border-pink-500/20">
             <div className="text-center mb-4">
               <div className="inline-flex items-center justify-center w-12 h-12 bg-pink-500/20 rounded-full mb-4">
-                <span className="text-xl">💡</span>
+                <div className="w-4 h-4 bg-pink-400 rounded-full"></div>
               </div>
               <h3 className="text-xl font-bold text-pink-300 mb-2">The Key Discovery</h3>
             </div>

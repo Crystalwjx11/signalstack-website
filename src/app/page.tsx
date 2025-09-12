@@ -30,18 +30,34 @@ export default function Home() {
           SIGNALSTACK
         </div>
         <div className="flex space-x-8">
-          <a href="/insights" className="text-gray-400 hover:text-cyan-400 font-medium text-sm tracking-wider transition-colors duration-300">
-            INSIGHTS
-          </a>
-          <a href="/projects" className="text-gray-400 hover:text-purple-400 font-medium text-sm tracking-wider transition-colors duration-300">
-            PROJECTS
-          </a>
-          <a href="#about" className="text-gray-400 hover:text-pink-400 font-medium text-sm tracking-wider transition-colors duration-300">
-            ABOUT
-          </a>
-          <a href="#connect" className="text-gray-400 hover:text-green-400 font-medium text-sm tracking-wider transition-colors duration-300">
-            CONNECT
-          </a>
+          <div className="relative group">
+            <a href="/insights" className="text-gray-400 hover:text-cyan-400 font-medium text-sm tracking-wider transition-colors duration-300 flex items-center">
+              THINKING
+              <span className="ml-1 text-xs">💭</span>
+            </a>
+            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-cyan-400 group-hover:w-full transition-all duration-300"></div>
+          </div>
+          <div className="relative group">
+            <a href="/projects" className="text-gray-400 hover:text-purple-400 font-medium text-sm tracking-wider transition-colors duration-300 flex items-center">
+              BUILDING
+              <span className="ml-1 text-xs">🔬</span>
+            </a>
+            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-400 group-hover:w-full transition-all duration-300"></div>
+          </div>
+          <div className="relative group">
+            <a href="#about" className="text-gray-400 hover:text-pink-400 font-medium text-sm tracking-wider transition-colors duration-300 flex items-center">
+              STORY
+              <span className="ml-1 text-xs">🌟</span>
+            </a>
+            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-pink-400 group-hover:w-full transition-all duration-300"></div>
+          </div>
+          <div className="relative group">
+            <a href="#connect" className="text-gray-400 hover:text-green-400 font-medium text-sm tracking-wider transition-colors duration-300 flex items-center">
+              CONNECT
+              <span className="ml-1 text-xs">🤝</span>
+            </a>
+            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-400 group-hover:w-full transition-all duration-300"></div>
+          </div>
         </div>
       </nav>
 
@@ -108,11 +124,31 @@ export default function Home() {
           </div>
         </div>
         
-        {/* AI Status Indicator */}
-        <div className="flex items-center justify-center space-x-2 text-green-400 font-mono text-sm opacity-80">
-          <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-          <span>AI_SYSTEMS_ONLINE</span>
-          <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse delay-500"></div>
+        {/* Quick Stats */}
+        <div className="grid md:grid-cols-4 gap-4 mb-8">
+          <div className="bg-gradient-to-br from-cyan-800/20 to-cyan-700/10 backdrop-blur-sm p-4 rounded-xl border border-cyan-500/20 text-center">
+            <div className="text-2xl font-bold text-cyan-300">5+</div>
+            <div className="text-xs text-gray-400">Years PM Experience</div>
+          </div>
+          <div className="bg-gradient-to-br from-purple-800/20 to-purple-700/10 backdrop-blur-sm p-4 rounded-xl border border-purple-500/20 text-center">
+            <div className="text-2xl font-bold text-purple-300">3</div>
+            <div className="text-xs text-gray-400">AI Experiments Running</div>
+          </div>
+          <div className="bg-gradient-to-br from-pink-800/20 to-pink-700/10 backdrop-blur-sm p-4 rounded-xl border border-pink-500/20 text-center">
+            <div className="text-2xl font-bold text-pink-300">∞</div>
+            <div className="text-xs text-gray-400">Questions Asked Daily</div>
+          </div>
+          <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 backdrop-blur-sm p-4 rounded-xl border border-green-500/20 text-center">
+            <div className="text-2xl font-bold text-green-300">1</div>
+            <div className="text-xs text-gray-400">Human-Centric Focus</div>
+          </div>
+        </div>
+
+        {/* Curiosity Status Indicator */}
+        <div className="flex items-center justify-center space-x-2 text-cyan-400 font-mono text-sm opacity-80">
+          <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
+          <span>CURIOSITY_DRIVEN_EXPLORATION</span>
+          <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse delay-500"></div>
         </div>
       </section>
 
@@ -286,6 +322,39 @@ export default function Home() {
             <div className="text-sm text-gray-400 font-mono">
               // Stay tuned for detailed case studies and tools
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Currently Exploring Section */}
+      <section className="relative z-10 max-w-4xl mx-auto px-8 py-16">
+        <div className="bg-gradient-to-r from-yellow-800/20 to-orange-800/20 backdrop-blur-lg rounded-2xl p-8 border border-yellow-500/20">
+          <div className="flex items-center justify-center mb-6">
+            <div className="w-3 h-3 bg-yellow-400 rounded-full animate-pulse mr-3"></div>
+            <h2 className="text-2xl font-bold text-white">Currently Exploring</h2>
+            <div className="w-3 h-3 bg-yellow-400 rounded-full animate-pulse ml-3"></div>
+          </div>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-yellow-500/10 rounded-lg p-4 border border-yellow-500/20">
+              <h3 className="text-lg font-semibold text-yellow-300 mb-2">🤔 This Week's Question</h3>
+              <p className="text-gray-300 text-sm">
+                "How do we measure AI 'helpfulness' when different people need completely different things from the same query?"
+              </p>
+            </div>
+            
+            <div className="bg-orange-500/10 rounded-lg p-4 border border-orange-500/20">
+              <h3 className="text-lg font-semibold text-orange-300 mb-2">🔍 Current Experiment</h3>
+              <p className="text-gray-300 text-sm">
+                Testing how context changes what people consider "accurate" vs "useful" in AI responses.
+              </p>
+            </div>
+          </div>
+          
+          <div className="text-center mt-6">
+            <p className="text-gray-400 text-sm italic">
+              "The best questions are the ones that make you realize how little you actually knew before asking them."
+            </p>
           </div>
         </div>
       </section>

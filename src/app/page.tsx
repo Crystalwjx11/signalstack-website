@@ -125,11 +125,7 @@ export default function Home() {
         </div>
         
         {/* Quick Stats */}
-        <div className="grid md:grid-cols-4 gap-4 mb-8">
-          <div className="bg-gradient-to-br from-cyan-800/20 to-cyan-700/10 backdrop-blur-sm p-4 rounded-xl border border-cyan-500/20 text-center">
-            <div className="text-2xl font-bold text-cyan-300">5+</div>
-            <div className="text-xs text-gray-400">Years PM Experience</div>
-          </div>
+        <div className="grid md:grid-cols-3 gap-4 mb-8">
           <div className="bg-gradient-to-br from-purple-800/20 to-purple-700/10 backdrop-blur-sm p-4 rounded-xl border border-purple-500/20 text-center">
             <div className="text-2xl font-bold text-purple-300">3</div>
             <div className="text-xs text-gray-400">AI Experiments Running</div>

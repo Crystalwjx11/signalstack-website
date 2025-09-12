@@ -62,33 +62,35 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative z-10 max-w-5xl mx-auto px-8 py-24 text-center">
-        <div className="mb-12">
-          <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-8">
-            <span className="block text-white">Building</span>
-            <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Human-Centric AI
-            </span>
-          </h1>
+        <div className="mb-16">
+          <div className="text-center mb-8">
+            <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+              SignalStack
+            </h1>
+            <p className="text-xl md:text-2xl text-gray-400 font-light">
+              Where AI signals meet human insight
+            </p>
+          </div>
         </div>
         
         {/* Clear Purpose Statement */}
-        <div className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto text-center">
-          <p className="mb-4">
-            I believe AI should serve <span className="text-cyan-400 font-semibold">human needs</span>, not the other way around.
+        <div className="text-lg text-gray-300 mb-16 max-w-2xl mx-auto text-center leading-relaxed">
+          <p className="mb-6">
+            I believe AI should serve <span className="text-cyan-400 font-medium">human needs</span>, not the other way around.
           </p>
-          <p className="text-lg text-gray-400">
-            My quest: understanding how <span className="text-purple-300 font-medium">curiosity</span> and 
-            <span className="text-pink-300 font-medium"> experimentation</span> can help us build technology that actually works for people.
+          <p className="text-gray-400">
+            Through <span className="text-purple-300 font-medium">experimentation</span> and 
+            <span className="text-pink-300 font-medium">pattern recognition</span>, I decode the signals that reveal how different AIs think and behave.
           </p>
         </div>
         
         {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-          <a href="/projects#demo-section" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
-            See How I Think: AI Training Demo
+        <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12">
+          <a href="/projects#demo-section" className="bg-white text-black px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-all duration-300 text-center">
+            See How I Think
           </a>
-          <a href="/insights/ai-personality-experiment" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
-            Read: LLM Personality Study
+          <a href="/insights/ai-personality-experiment" className="border border-gray-400 text-gray-300 px-8 py-3 rounded-lg font-medium hover:border-white hover:text-white transition-all duration-300 text-center">
+            LLM Personality Study
           </a>
         </div>
         
@@ -343,7 +345,7 @@ export default function Home() {
       {/* About Section */}
       <section id="about" className="relative z-10 max-w-4xl mx-auto px-8 py-20">
         <h2 className="text-3xl font-bold text-center mb-16 text-white">
-          About SignalStack
+          About the Signal Hunter
         </h2>
         <div className="bg-gradient-to-br from-gray-800/30 to-gray-700/20 backdrop-blur-lg rounded-2xl p-12 border border-gray-600/20">
           <div className="grid md:grid-cols-2 gap-12 items-center">

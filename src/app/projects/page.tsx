@@ -12,20 +12,20 @@ export default function Projects() {
 
       {/* Header */}
       <nav className="relative z-10 flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <a href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer">
+        <a href="/" className="text-2xl font-bold text-blue-500 hover:text-blue-400 transition-all duration-300 cursor-pointer">
           SIGNALSTACK
         </a>
         <div className="flex space-x-8">
-          <a href="/" className="text-gray-400 hover:text-cyan-400 font-medium text-sm tracking-wider transition-colors duration-300">
+          <a href="/" className="text-gray-400 hover:text-blue-500 font-medium text-sm tracking-wider transition-colors duration-300">
             HOME
           </a>
-          <a href="/insights" className="text-gray-400 hover:text-purple-400 font-medium text-sm tracking-wider transition-colors duration-300">
+          <a href="/insights" className="text-gray-400 hover:text-blue-500 font-medium text-sm tracking-wider transition-colors duration-300">
             INSIGHTS
           </a>
-          <a href="/projects" className="text-purple-400 font-medium text-sm tracking-wider transition-colors duration-300">
+          <a href="/projects" className="text-purple-500 font-medium text-sm tracking-wider transition-colors duration-300">
             PROJECTS
           </a>
-          <a href="/#connect" className="text-gray-400 hover:text-green-400 font-medium text-sm tracking-wider transition-colors duration-300">
+          <a href="/#connect" className="text-gray-400 hover:text-green-500 font-medium text-sm tracking-wider transition-colors duration-300">
             CONNECT
           </a>
         </div>
@@ -40,7 +40,7 @@ export default function Projects() {
             </span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            I solve <span className="text-cyan-400 font-semibold">complex problems</span> by asking the <span className="text-purple-400 font-semibold">right questions</span>, thinking <span className="text-pink-400 font-semibold">creatively</span> about AI systems, and ensuring <span className="text-green-400 font-semibold">technology serves people</span>—not the other way around.
+            I solve <span className="text-blue-400 font-semibold">complex problems</span> by asking the <span className="text-purple-400 font-semibold">right questions</span>, thinking <span className="text-blue-400 font-semibold">creatively</span> about AI systems, and ensuring <span className="text-green-400 font-semibold">technology serves people</span>—not the other way around.
           </p>
         </div>
       </section>
@@ -49,16 +49,16 @@ export default function Projects() {
       <section className="relative z-10 max-w-6xl mx-auto px-8 py-8">
         <div className="flex items-center justify-center space-x-6 text-sm">
           <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-            <span className="text-green-400 font-mono">LIVE_DEMOS: 1</span>
+            <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <span className="text-green-500 font-mono">LIVE_DEMOS: 1</span>
           </div>
           <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
-            <span className="text-cyan-400 font-mono">CASE_STUDIES: 1</span>
+            <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
+            <span className="text-blue-500 font-mono">CASE_STUDIES: 1</span>
           </div>
           <div className="flex items-center space-x-2">
-            <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
-            <span className="text-purple-400 font-mono">OPEN_SOURCE: 1</span>
+            <div className="w-2 h-2 bg-purple-500 rounded-full animate-pulse"></div>
+            <span className="text-purple-500 font-mono">OPEN_SOURCE: 1</span>
           </div>
         </div>
       </section>

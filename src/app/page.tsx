@@ -74,18 +74,18 @@ export default function Home() {
         {/* Clear Purpose Statement */}
         <div className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto text-center">
           <p className="mb-4">
-            I build AI systems that actually serve <span className="text-cyan-400 font-semibold">human needs</span>.
+            I believe AI should serve <span className="text-cyan-400 font-semibold">human needs</span>, not the other way around.
           </p>
           <p className="text-lg text-gray-400">
-            Through <span className="text-purple-300 font-medium">deep questions</span> and 
-            <span className="text-pink-300 font-medium"> creative thinking</span>, I turn complex technical challenges into solutions people want to use.
+            My quest: understanding how <span className="text-purple-300 font-medium">curiosity</span> and 
+            <span className="text-pink-300 font-medium"> experimentation</span> can help us build technology that actually works for people.
           </p>
         </div>
         
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
           <a href="/projects#demo-section" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
-            Watch Demo: AI Training Explained
+            See How I Think: AI Training Demo
           </a>
           <a href="/insights/ai-personality-experiment" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
             Read: LLM Personality Study

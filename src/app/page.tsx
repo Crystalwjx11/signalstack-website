@@ -98,31 +98,6 @@ export default function Home() {
         </div>
         
         {/* Skills Highlight */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <div className="group bg-gradient-to-br from-cyan-900/20 to-cyan-800/10 backdrop-blur-sm p-6 rounded-2xl border border-cyan-500/20 hover:border-cyan-400/50 transition-all duration-300 hover:scale-105">
-            <div className="w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex items-center justify-center mb-4">
-              <span className="text-xl">🔍</span>
-            </div>
-            <h3 className="text-lg font-bold text-cyan-300 mb-2">Analytical Problem-Solving</h3>
-            <p className="text-sm text-gray-300">Breaking down complex AI challenges into actionable insights and solutions</p>
-          </div>
-          
-          <div className="group bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm p-6 rounded-2xl border border-purple-500/20 hover:border-purple-400/50 transition-all duration-300 hover:scale-105">
-            <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4">
-              <span className="text-xl">🎨</span>
-            </div>
-            <h3 className="text-lg font-bold text-purple-300 mb-2">Creative Exploration</h3>
-            <p className="text-sm text-gray-300">Finding innovative approaches to human-AI interaction and preference modeling</p>
-          </div>
-          
-          <div className="group bg-gradient-to-br from-pink-900/20 to-pink-800/10 backdrop-blur-sm p-6 rounded-2xl border border-pink-500/20 hover:border-pink-400/50 transition-all duration-300 hover:scale-105">
-            <div className="w-12 h-12 bg-gradient-to-r from-pink-500 to-red-500 rounded-xl flex items-center justify-center mb-4">
-              <span className="text-xl">❓</span>
-            </div>
-            <h3 className="text-lg font-bold text-pink-300 mb-2">Genuine Curiosity</h3>
-            <p className="text-sm text-gray-300">Asking the questions others miss and exploring the 'why' behind AI behavior</p>
-          </div>
-        </div>
         
         {/* Quick Stats */}
         <div className="grid md:grid-cols-3 gap-4 mb-8">
@@ -419,64 +394,15 @@ export default function Home() {
         <h2 className="text-3xl font-bold text-center mb-16 text-white">
           Let's Connect
         </h2>
-        <div className="grid md:grid-cols-2 gap-8">
-          {/* Contact Info */}
-          <div className="bg-gradient-to-br from-gray-800/30 to-gray-700/20 backdrop-blur-lg rounded-2xl p-8 border border-gray-600/20">
-            <h3 className="text-xl font-bold text-white mb-6">Get In Touch</h3>
-            <div className="space-y-4">
-              <div className="flex items-center space-x-4 p-4 bg-cyan-500/10 rounded-lg hover:bg-cyan-500/20 transition-colors">
-                <div className="w-2 h-2 bg-cyan-400 rounded-full animate-pulse"></div>
-                <div>
-                  <p className="text-cyan-300 font-medium">Email</p>
-                  <p className="text-gray-300">crystal@signalstack.ai</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4 p-4 bg-purple-500/10 rounded-lg hover:bg-purple-500/20 transition-colors">
-                <div className="w-2 h-2 bg-purple-400 rounded-full animate-pulse"></div>
-                <div>
-                  <p className="text-purple-300 font-medium">LinkedIn</p>
-                  <p className="text-gray-300">Connect for AI PM opportunities</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4 p-4 bg-green-500/10 rounded-lg hover:bg-green-500/20 transition-colors">
-                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
-                <div>
-                  <p className="text-green-300 font-medium">Calendar</p>
-                  <p className="text-gray-300">Schedule a conversation</p>
-                </div>
+        <div className="max-w-md mx-auto">
+          <div className="bg-gradient-to-br from-gray-800/30 to-gray-700/20 backdrop-blur-lg rounded-2xl p-8 border border-gray-600/20 text-center">
+            <div className="flex items-center justify-center space-x-4 p-6 bg-cyan-500/10 rounded-lg hover:bg-cyan-500/20 transition-colors">
+              <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse"></div>
+              <div>
+                <p className="text-cyan-300 font-medium text-lg">Email</p>
+                <p className="text-gray-300 text-lg">crystal@signalstack.ai</p>
               </div>
             </div>
-          </div>
-
-          {/* Quick Contact Form */}
-          <div className="bg-gradient-to-br from-purple-800/20 to-pink-800/20 backdrop-blur-lg rounded-2xl p-8 border border-purple-500/20">
-            <h3 className="text-xl font-bold text-white mb-6">Quick Message</h3>
-            <div className="space-y-4">
-              <div>
-                <label className="block text-gray-300 text-sm font-medium mb-2">Interested In</label>
-                <select className="w-full bg-gray-800/50 border border-gray-600 rounded-lg p-3 text-white focus:border-purple-400 focus:outline-none">
-                  <option>AI PM Opportunities</option>
-                  <option>Co-founder Discussions</option>
-                  <option>Speaking Engagements</option>
-                  <option>Research Collaboration</option>
-                  <option>General Discussion</option>
-                </select>
-              </div>
-              <div>
-                <label className="block text-gray-300 text-sm font-medium mb-2">Message</label>
-                <textarea 
-                  rows={4} 
-                  className="w-full bg-gray-800/50 border border-gray-600 rounded-lg p-3 text-white focus:border-purple-400 focus:outline-none resize-none" 
-                  placeholder="Tell me about your project or opportunity..."
-                ></textarea>
-              </div>
-              <button className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white py-3 rounded-lg font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105">
-                Send Message
-              </button>
-            </div>
-            <p className="text-xs text-gray-400 mt-4 text-center">
-              I typically respond within 24 hours
-            </p>
           </div>
         </div>
       </section>

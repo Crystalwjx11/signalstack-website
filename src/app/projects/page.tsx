@@ -170,14 +170,14 @@ export default function Projects() {
               <span className="text-green-400 font-mono text-sm">LIVE_DEMO</span>
             </div>
             <h3 className="text-xl font-bold text-white mb-3">
-              AI Toolbox Demo
+              AI Model Training Lifecycle
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
-              Watch me demonstrate a practical AI toolbox that showcases user-friendly design and real-world application.
+              Watch me explain the complex AI model training process using intuitive cooking analogies that make technical concepts accessible.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">AI Tools</span>
-              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Demo Video</span>
+              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">AI Training</span>
+              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Education</span>
             </div>
             <div className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
               Watch Demo →
@@ -284,22 +284,22 @@ export default function Projects() {
                 <span className="text-blue-400 font-mono text-sm">LIVE_DEMO</span>
               </div>
               <h3 className="text-2xl font-bold text-white mb-4">
-                AI Toolbox Demo
+                AI Model Training Lifecycle
               </h3>
               <p className="text-gray-300 leading-relaxed mb-4">
-                Watch me demonstrate a practical AI toolbox that showcases user-friendly design and real-world application. 
-                This 3-minute demo shows how I approach building AI tools that solve business problems.
+                Watch me break down the complex AI model training process using an intuitive cooking analogy. 
+                This demo explains everything from data preparation to deployment in accessible terms that anyone can understand.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">AI Tools</span>
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Enterprise PM</span>
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">User Experience</span>
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Practical Application</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">AI Training</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Model Lifecycle</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Technical Communication</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Analogical Thinking</span>
               </div>
               <div className="bg-blue-500/10 rounded-lg p-4 border border-blue-500/20">
                 <p className="text-sm text-blue-200">
-                  <strong>Key Highlights:</strong> User-centered design, practical AI implementation, 
-                  clear demonstration of complex concepts, and focus on solving real business needs.
+                  <strong>Key Highlights:</strong> Pre-training data strategy, distributed model training, 
+                  post-training optimization, safety evaluation, and deployment coordination—all explained through cooking metaphors.
                 </p>
               </div>
             </div>
@@ -314,7 +314,7 @@ export default function Projects() {
                   title="AI Toolbox Demo by Crystal Wang"
                 ></iframe>
                 <div className="mt-3 text-center">
-                  <p className="text-xs text-gray-400">2min 55sec • Screen + Camera Recording</p>
+                  <p className="text-xs text-gray-400">AI Model Training Lifecycle • Educational Demo</p>
                 </div>
               </div>
             </div>
@@ -323,7 +323,7 @@ export default function Projects() {
         
         <div className="text-center">
           <p className="text-gray-400 text-sm mb-4">
-            This demo showcases my approach to building practical AI solutions that bridge technical capability with user needs.
+            This demo showcases my ability to explain complex AI concepts in accessible ways, making technical processes understandable for diverse audiences.
           </p>
           <a 
             href="https://www.youtube.com/watch?v=3fAug-tgT5E" 

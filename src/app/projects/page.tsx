@@ -40,7 +40,7 @@ export default function Projects() {
             </span>
           </h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Case studies and frameworks from building human-centered AI systems that understand what people actually need
+            I solve <span className="text-cyan-400 font-semibold">complex problems</span> by asking the <span className="text-purple-400 font-semibold">right questions</span>, thinking <span className="text-pink-400 font-semibold">creatively</span> about AI systems, and ensuring <span className="text-green-400 font-semibold">technology serves people</span>—not the other way around.
           </p>
         </div>
       </section>

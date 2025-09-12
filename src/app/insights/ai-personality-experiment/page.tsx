@@ -116,20 +116,42 @@ export default function AIPersonalityExperiment() {
           {/* Experiment Results Table */}
           <div className="bg-gradient-to-br from-gray-800/40 to-gray-700/30 backdrop-blur-sm rounded-2xl p-8 border border-gray-600/20 mb-8">
             <div className="text-center mb-6">
-              <h3 className="text-xl font-bold text-white mb-2">Experiment Results</h3>
-              <p className="text-gray-400 text-sm">How three AIs evaluated the same 5 questionable responses</p>
+              <h3 className="text-xl font-bold text-white mb-2">The Results: Complete Disagreement</h3>
+              <p className="text-gray-400 text-sm">5 prompts, 3 AIs, 0 consensus</p>
             </div>
             <div className="overflow-hidden rounded-xl border border-gray-600/30">
               <img 
                 src="/ai-experiment-results.png" 
-                alt="Table showing AI evaluation results - ChatGPT, Claude, and Gemini disagreed on every single prompt, revealing distinct personality patterns in their accuracy judgments"
-                className="w-full h-auto"
+                alt="Experiment results showing ChatGPT, Claude, and Gemini disagreed on every single evaluation, with distinct patterns: ChatGPT (flexible), Claude (strict), Gemini (precise)"
+                className="w-full h-auto cursor-pointer hover:scale-105 transition-transform duration-300"
+                onClick="window.open('/ai-experiment-results.png', '_blank')"
               />
             </div>
+            <div className="mt-6">
+              <div className="grid md:grid-cols-3 gap-4 text-center">
+                <div className="bg-green-500/10 rounded-lg p-3 border border-green-500/20">
+                  <h4 className="font-bold text-green-300">ChatGPT</h4>
+                  <p className="text-xs text-gray-400">Flexible & Purpose-Driven</p>
+                </div>
+                <div className="bg-purple-500/10 rounded-lg p-3 border border-purple-500/20">
+                  <h4 className="font-bold text-purple-300">Claude</h4>
+                  <p className="text-xs text-gray-400">Strict & Rule-Following</p>
+                </div>
+                <div className="bg-cyan-500/10 rounded-lg p-3 border border-cyan-500/20">
+                  <h4 className="font-bold text-cyan-300">Gemini</h4>
+                  <p className="text-xs text-gray-400">Precise & Detail-Oriented</p>
+                </div>
+              </div>
+            </div>
             <div className="mt-4 text-center">
-              <p className="text-xs text-gray-400">
-                Each AI showed consistent patterns: ChatGPT (flexible), Claude (strict), Gemini (precise fact-checker)
-              </p>
+              <a 
+                href="https://docs.google.com/spreadsheets/d/e/2PACX-1vRyh0uOXUYF0D0i3pe-pC2-HxWqBh82koUW5P1gflkk9jqZyl-3GpI21CIQSi2b5QmSuQAQuoDQjt1B/pubhtml"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-medium"
+              >
+                📊 View Full Dataset →
+              </a>
             </div>
           </div>
 
@@ -174,6 +196,22 @@ export default function AIPersonalityExperiment() {
                 Incredibly precise, catching subtle errors the others missed. For example, Gemini correctly identified that "Imagine" isn't actually a Beatles song when others let it slide. But it also flagged minor formatting issues that didn't change the meaning.
               </p>
             </div>
+          </div>
+        </div>
+
+        {/* Key Discovery */}
+        <div className="mb-8">
+          <div className="bg-gradient-to-br from-pink-900/30 to-pink-800/20 backdrop-blur-sm rounded-2xl p-8 border border-pink-500/20">
+            <div className="text-center mb-4">
+              <div className="inline-flex items-center justify-center w-12 h-12 bg-pink-500/20 rounded-full mb-4">
+                <span className="text-xl">💡</span>
+              </div>
+              <h3 className="text-xl font-bold text-pink-300 mb-2">The Key Discovery</h3>
+            </div>
+            <p className="text-lg text-gray-300 text-center leading-relaxed">
+              <span className="font-semibold text-white">Every AI has a distinct evaluation personality.</span> <br/>
+              These differences aren't bugs—they're features that reveal fundamentally different approaches to accuracy, context, and helpfulness.
+            </p>
           </div>
         </div>
 

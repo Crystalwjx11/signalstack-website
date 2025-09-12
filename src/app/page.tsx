@@ -73,17 +73,13 @@ export default function Home() {
         </div>
         
         {/* Clear Purpose Statement */}
-        <div className="text-xl text-gray-300 mb-16 max-w-4xl mx-auto">
-          <p className="mb-6">
-            <strong className="text-white">Curiosity-driven program manager</strong> who bridges technology and human needs. 
-            I solve complex problems by asking the right questions, thinking creatively about AI systems, 
-            and ensuring technology serves people—not the other way around.
+        <div className="text-xl text-gray-300 mb-16 max-w-3xl mx-auto text-center">
+          <p className="mb-4">
+            I build AI systems that actually serve <span className="text-cyan-400 font-semibold">human needs</span>.
           </p>
           <p className="text-lg text-gray-400">
-            My approach combines <strong className="text-cyan-300">analytical problem-solving</strong> with 
-            <strong className="text-purple-300"> creative exploration</strong> and 
-            <strong className="text-pink-300"> genuine curiosity</strong> about how AI can enhance human potential. 
-            I turn complex technical challenges into human-centered solutions.
+            Through <span className="text-purple-300 font-medium">deep questions</span> and 
+            <span className="text-pink-300 font-medium"> creative thinking</span>, I turn complex technical challenges into solutions people want to use.
           </p>
         </div>
         

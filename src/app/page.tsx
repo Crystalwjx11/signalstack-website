@@ -49,9 +49,9 @@ export default function Home() {
       <section className="relative z-10 max-w-5xl mx-auto px-8 py-24 text-center">
         <div className="mb-12">
           <h1 className="text-6xl md:text-7xl font-bold leading-tight mb-8">
-            <span className="block text-white">Building</span>
+            <span className="block text-white">Learning AI</span>
             <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
-              Human-Centered AI
+              in Public
             </span>
           </h1>
         </div>
@@ -59,22 +59,22 @@ export default function Home() {
         {/* Clear Purpose Statement */}
         <div className="text-xl text-gray-300 mb-16 max-w-4xl mx-auto">
           <p className="mb-6">
-            As a program manager in tech, I bring human-centered thinking to AI development. 
-            My focus is building AI systems that understand and serve human needs, not just optimize metrics.
+            Following my curiosity about human-centered AI development. As a program manager in tech, I'm documenting 
+            my quest to understand how AI can truly serve humanity—and sharing what I discover along the way.
           </p>
           <p className="text-lg text-gray-400">
-            Through data annotation work, I discovered how subjective "good AI" really is. This insight drives my work on 
-            preference modeling, human values in AI systems, and creating technology that truly serves people.
+            This journey started with a simple question during data annotation work: when experts disagree, who's "right"? 
+            That question opened up everything I'm exploring now about human preferences, AI quality, and what it means to build technology for people.
           </p>
         </div>
         
         {/* Action Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-8">
-          <a href="/projects" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
-            View My Work
+          <a href="/insights" className="bg-gradient-to-r from-cyan-500 to-purple-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-cyan-400 hover:to-purple-500 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/25 text-center">
+            Follow My Learning
           </a>
-          <a href="/insights" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
-            Read Insights
+          <a href="/projects" className="border-2 border-purple-400 text-purple-400 px-8 py-3 rounded-xl font-semibold hover:bg-purple-400 hover:text-black transition-all duration-300 hover:scale-105 text-center">
+            See What I'm Building
           </a>
         </div>
         
@@ -89,7 +89,7 @@ export default function Home() {
       {/* My Focus Areas */}
       <section id="thinking" className="relative z-10 max-w-6xl mx-auto px-8 py-20">
         <h2 className="text-3xl font-bold text-center mb-16 text-white">
-          My Focus Areas
+          What I'm Exploring
         </h2>
         <div className="grid md:grid-cols-3 gap-6">
           {/* Human Preferences */}
@@ -374,10 +374,10 @@ export default function Home() {
       {/* Call to Action */}
       <section className="relative z-10 max-w-4xl mx-auto px-8 py-20 text-center">
         <div className="bg-gradient-to-r from-purple-800/30 via-pink-800/30 to-blue-800/30 backdrop-blur-lg rounded-2xl p-12 border border-purple-500/20">
-          <h2 className="text-2xl font-bold mb-4 text-white">Building Human-Centered AI Together</h2>
+          <h2 className="text-2xl font-bold mb-4 text-white">Learning in Public, Building for the Future</h2>
           <p className="text-gray-300 mb-8 max-w-3xl mx-auto">
-            The future of AI isn't just about better algorithms—it's about systems that understand and serve human needs. 
-            I'm always interested in connecting with others who share this vision and want to collaborate on meaningful AI projects.
+            I believe the future of AI lies in understanding human needs as deeply as we understand algorithms. 
+            Join me in exploring how we can shape AI to truly serve humanity—one question, one insight, one experiment at a time.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a href="/projects" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 text-center">

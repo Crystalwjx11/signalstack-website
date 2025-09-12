@@ -352,6 +352,21 @@ export default function Home() {
           </div>
           
           <div className="text-center mt-6">
+            <a 
+              href="/projects#demo-section" 
+              className="inline-flex items-center bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-blue-500 hover:to-purple-500 transition-all duration-300 hover:scale-105 text-sm"
+            >
+              🎥 Watch My Latest Demo
+            </a>
+          </div>
+          
+          <div className="text-center mt-4">
+            <p className="text-gray-400 text-sm italic">
+              "The best questions are the ones that make you realize how little you actually knew before asking them."
+            </p>
+          </div>
+          
+          <div className="text-center mt-6">
             <p className="text-gray-400 text-sm italic">
               "The best questions are the ones that make you realize how little you actually knew before asking them."
             </p>

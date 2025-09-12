@@ -270,6 +270,72 @@ export default function Projects() {
         </div>
       </section>
 
+      {/* Live Demo Section */}
+      <section id="demo-section" className="relative z-10 max-w-5xl mx-auto px-8 py-20">
+        <h2 className="text-3xl font-bold text-center mb-8 text-white">
+          See My Work in Action
+        </h2>
+        
+        <div className="bg-gradient-to-br from-blue-900/30 to-purple-900/30 backdrop-blur-xl rounded-2xl p-8 border border-blue-500/30 mb-8">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <div className="flex items-center mb-4">
+                <div className="w-4 h-4 bg-blue-400 rounded-full animate-pulse mr-3"></div>
+                <span className="text-blue-400 font-mono text-sm">LIVE_DEMO</span>
+              </div>
+              <h3 className="text-2xl font-bold text-white mb-4">
+                AI Toolbox Demo
+              </h3>
+              <p className="text-gray-300 leading-relaxed mb-4">
+                Watch me demonstrate a practical AI toolbox that showcases user-friendly design and real-world application. 
+                This 3-minute demo shows how I approach building AI tools that solve business problems.
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">AI Tools</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Enterprise PM</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">User Experience</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Practical Application</span>
+              </div>
+              <div className="bg-blue-500/10 rounded-lg p-4 border border-blue-500/20">
+                <p className="text-sm text-blue-200">
+                  <strong>Key Highlights:</strong> User-centered design, practical AI implementation, 
+                  clear demonstration of complex concepts, and focus on solving real business needs.
+                </p>
+              </div>
+            </div>
+            
+            <div className="relative">
+              <div className="bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-xl p-4 border border-gray-600/20">
+                <iframe 
+                  src="https://www.youtube.com/embed/3fAug-tgT5E"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="w-full h-64 rounded-lg"
+                  title="AI Toolbox Demo by Crystal Wang"
+                ></iframe>
+                <div className="mt-3 text-center">
+                  <p className="text-xs text-gray-400">2min 55sec • Screen + Camera Recording</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="text-center">
+          <p className="text-gray-400 text-sm mb-4">
+            This demo showcases my approach to building practical AI solutions that bridge technical capability with user needs.
+          </p>
+          <a 
+            href="https://www.youtube.com/watch?v=3fAug-tgT5E" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors duration-300 text-sm"
+          >
+            Watch on YouTube →
+          </a>
+        </div>
+      </section>
+
       {/* Collaboration CTA */}
       <section className="relative z-10 max-w-4xl mx-auto px-8 py-20">
         <div className="bg-gradient-to-r from-purple-800/30 via-pink-800/30 to-blue-800/30 backdrop-blur-lg rounded-2xl p-12 border border-purple-500/20 text-center">
@@ -278,11 +344,11 @@ export default function Projects() {
             I'm always open to discussing these projects, sharing insights, or exploring potential collaborations on human-centered AI research.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <a href="/#connect" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 text-center">
-              Get in Touch
+            <a href="#demo-section" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 text-center">
+              Watch Live Demo
             </a>
-            <a href="/insights" className="border-2 border-gray-400 text-gray-300 px-8 py-3 rounded-xl font-semibold hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-105 text-center">
-              Read My Insights
+            <a href="/#connect" className="border-2 border-gray-400 text-gray-300 px-8 py-3 rounded-xl font-semibold hover:bg-gray-700 hover:text-white transition-all duration-300 hover:scale-105 text-center">
+              Get in Touch
             </a>
           </div>
         </div>

@@ -12,6 +12,11 @@ const config: Config = {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
       },
+      fontFamily: {
+        'inter': ['var(--font-inter)', 'sans-serif'],
+        'space-grotesk': ['var(--font-space-grotesk)', 'sans-serif'],
+        'jetbrains-mono': ['var(--font-jetbrains-mono)', 'monospace'],
+      },
     },
   },
   plugins: [],

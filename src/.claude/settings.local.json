@@ -7,7 +7,10 @@
       "Bash(npm run dev:*)",
       "Read(//var/folders/rg/gv98hfms2nqfq3jy5y2_wvj80000gn/T/TemporaryItems/NSIRD_screencaptureui_dru5uN/**)",
       "Bash(curl:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push)",
+      "Read(//Users/jiaxinwang/Desktop/**)"
     ],
     "deny": [],
     "ask": []

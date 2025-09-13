@@ -326,7 +326,14 @@ export default function HumanCenteredAIStrategy() {
           
           <div className="space-y-6">
             <div className="border-l-4 border-blue-400 pl-6">
-              <h4 className="text-lg font-semibold text-white mb-2">Microsoft's $3B India Investment (2025)</h4>
+              <h4 className="text-lg font-semibold text-white mb-2">
+                <a href="https://blogs.microsoft.com/blog/2024/01/10/microsoft-announces-3-billion-investment-to-expand-ai-and-cloud-infrastructure-in-india/" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   className="text-blue-300 hover:text-blue-200 transition-colors duration-300 underline decoration-blue-400 underline-offset-2">
+                  Microsoft's $3B India Investment (2025)
+                </a>
+              </h4>
               <p className="text-sm text-gray-300">
                 They're not just building data centers—they're training 10 million people in AI skills. 
                 The message: human capability development scales alongside AI infrastructure.
@@ -334,7 +341,14 @@ export default function HumanCenteredAIStrategy() {
             </div>
             
             <div className="border-l-4 border-purple-400 pl-6">
-              <h4 className="text-lg font-semibold text-white mb-2">AI Adoption Jumping from 55% to 78% in 2025</h4>
+              <h4 className="text-lg font-semibold text-white mb-2">
+                <a href="https://hai.stanford.edu/ai-index-report" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   className="text-purple-300 hover:text-purple-200 transition-colors duration-300 underline decoration-purple-400 underline-offset-2">
+                  AI Adoption Jumping from 55% to 78% in 2025
+                </a>
+              </h4>
               <p className="text-sm text-gray-300">
                 Stanford's data shows rapid adoption, but the companies seeing ROI are the ones redesigning workflows, 
                 not just implementing AI features.
@@ -342,7 +356,14 @@ export default function HumanCenteredAIStrategy() {
             </div>
             
             <div className="border-l-4 border-green-400 pl-6">
-              <h4 className="text-lg font-semibold text-white mb-2">Julie Zhuo's "Death of Product Development"</h4>
+              <h4 className="text-lg font-semibold text-white mb-2">
+                <a href="https://medium.com/@joulee/the-death-of-product-development-as-we-know-it-67e45c5b9b79" 
+                   target="_blank" 
+                   rel="noopener noreferrer" 
+                   className="text-green-300 hover:text-green-200 transition-colors duration-300 underline decoration-green-400 underline-offset-2">
+                  Julie Zhuo's "Death of Product Development"
+                </a>
+              </h4>
               <p className="text-sm text-gray-300">
                 AI is changing how teams build, but the winners combine AI efficiency with human empathy and intuition. 
                 Technology speeds up iteration; humans guide direction.

@@ -232,44 +232,6 @@ export default function CaseStudies() {
         </div>
       </section>
 
-      {/* Development Roadmap */}
-      <section className="relative z-10 max-w-4xl mx-auto px-8 py-16">
-        <h2 className="text-3xl font-bold text-white mb-8">Development Roadmap</h2>
-        
-        <div className="space-y-6">
-          <div className="flex items-center">
-            <div className="w-4 h-4 bg-green-400 rounded-full mr-4"></div>
-            <div className="flex-1">
-              <h4 className="text-lg font-semibold text-white">Q4 2024: Foundation Research</h4>
-              <p className="text-gray-300 text-sm">Completed preference modeling framework design and pilot case studies</p>
-            </div>
-          </div>
-          
-          <div className="flex items-center">
-            <div className="w-4 h-4 bg-yellow-400 rounded-full animate-pulse mr-4"></div>
-            <div className="flex-1">
-              <h4 className="text-lg font-semibold text-white">Q1 2025: Prototype Development</h4>
-              <p className="text-gray-300 text-sm">Building preference modeling toolkit and evaluation dashboard prototypes</p>
-            </div>
-          </div>
-          
-          <div className="flex items-center">
-            <div className="w-4 h-4 bg-gray-400 rounded-full mr-4"></div>
-            <div className="flex-1">
-              <h4 className="text-lg font-semibold text-white">Q2 2025: Open Source Release</h4>
-              <p className="text-gray-300 text-sm">Public release of preference modeling library with documentation and examples</p>
-            </div>
-          </div>
-          
-          <div className="flex items-center">
-            <div className="w-4 h-4 bg-gray-400 rounded-full mr-4"></div>
-            <div className="flex-1">
-              <h4 className="text-lg font-semibold text-white">Q3 2025: Industry Integration</h4>
-              <p className="text-gray-300 text-sm">Partner with AI teams to validate frameworks in production environments</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Collaboration Call */}
       <section className="relative z-10 max-w-4xl mx-auto px-8 py-20">

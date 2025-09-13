@@ -1,15 +1,29 @@
 export default function Home() {
   return (
     <main className="min-h-screen bg-black text-white overflow-hidden relative">
-      {/* AI Neural Network Background */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-cyan-500/10 via-purple-500/10 to-pink-500/10"></div>
+      {/* Enhanced AI Neural Network Background */}
+      <div className="absolute inset-0 opacity-30">
+        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-cyan-500/15 via-purple-500/15 via-amber-500/10 to-pink-500/15"></div>
         {/* Animated Grid */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,255,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,255,0.03)_1px,transparent_1px)] bg-[size:50px_50px] animate-pulse"></div>
-        {/* Moving Neural Nodes */}
-        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-cyan-400 rounded-full animate-ping"></div>
-        <div className="absolute top-3/4 right-1/3 w-2 h-2 bg-purple-400 rounded-full animate-ping delay-500"></div>
-        <div className="absolute bottom-1/3 left-2/3 w-2 h-2 bg-pink-400 rounded-full animate-ping delay-1000"></div>
+        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,255,0.05)_1px,transparent_1px)] bg-[size:40px_40px] animate-pulse"></div>
+        {/* Enhanced Neural Network Connections */}
+        <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-cyan-400 rounded-full animate-ping shadow-lg shadow-cyan-400/50"></div>
+        <div className="absolute top-3/4 right-1/3 w-3 h-3 bg-purple-400 rounded-full animate-ping delay-500 shadow-lg shadow-purple-400/50"></div>
+        <div className="absolute bottom-1/3 left-2/3 w-3 h-3 bg-amber-400 rounded-full animate-ping delay-1000 shadow-lg shadow-amber-400/50"></div>
+        <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-pink-400 rounded-full animate-ping delay-700 shadow-lg shadow-pink-400/50"></div>
+        
+        {/* Connecting Lines Animation */}
+        <svg className="absolute inset-0 w-full h-full opacity-20">
+          <defs>
+            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stopColor="#00ffff" stopOpacity="0.6" />
+              <stop offset="50%" stopColor="#a855f7" stopOpacity="0.4" />
+              <stop offset="100%" stopColor="#ec4899" stopOpacity="0.6" />
+            </linearGradient>
+          </defs>
+          <line x1="25%" y1="25%" x2="75%" y2="75%" stroke="url(#lineGradient)" strokeWidth="1" className="animate-pulse" />
+          <line x1="75%" y1="33%" x2="25%" y2="67%" stroke="url(#lineGradient)" strokeWidth="1" className="animate-pulse delay-300" />
+        </svg>
       </div>
       
       {/* AI Matrix Effect - Scrolling Code */}
@@ -26,7 +40,7 @@ export default function Home() {
       
       {/* Header */}
       <nav className="relative z-10 flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <div className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer">
+        <div className="text-2xl font-space-grotesk font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer tracking-tight">
           SIGNALSTACK
         </div>
         <div className="flex space-x-8">
@@ -59,53 +73,83 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative z-10 max-w-5xl mx-auto px-8 py-24 text-center">
-        <div className="mb-16">
-          <div className="text-center mb-8">
-            <h1 className="text-5xl md:text-6xl font-bold text-white mb-4">
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-space-grotesk font-black text-white mb-6 leading-tight tracking-tight">
               SignalStack
             </h1>
-            <p className="text-xl md:text-2xl text-gray-400 font-light">
-              Where AI signals meet human insight
+            <div className="max-w-2xl mx-auto">
+              <p className="text-2xl md:text-3xl text-gray-300 font-inter font-light mb-4 leading-relaxed">
+                Where AI signals meet human insight
+              </p>
+              <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mx-auto rounded-full opacity-60"></div>
+            </div>
+          </div>
+        </div>
+        
+        {/* Enhanced Purpose Statement */}
+        <div className="mb-20 max-w-3xl mx-auto text-center">
+          <div className="bg-gradient-to-r from-gray-800/30 via-gray-700/20 to-gray-800/30 backdrop-blur-lg rounded-2xl p-8 border border-gray-600/20">
+            <p className="text-xl md:text-2xl text-gray-200 mb-6 leading-relaxed font-inter">
+              I believe AI should serve <span className="bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent font-semibold">human needs</span>, not the other way around.
+            </p>
+            <p className="text-lg text-gray-400 leading-relaxed font-inter">
+              Through <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent font-medium">experimentation</span> and 
+              <span className="bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent font-medium">pattern recognition</span>, I decode the signals that reveal how different AIs think and behave.
             </p>
           </div>
         </div>
         
-        {/* Clear Purpose Statement */}
-        <div className="text-lg text-gray-300 mb-16 max-w-2xl mx-auto text-center leading-relaxed">
-          <p className="mb-6">
-            I believe AI should serve <span className="text-blue-400 font-medium">human needs</span>, not the other way around.
-          </p>
-          <p className="text-gray-400">
-            Through <span className="text-purple-400 font-medium">experimentation</span> and 
-            <span className="text-blue-400 font-medium">pattern recognition</span>, I decode the signals that reveal how different AIs think and behave.
-          </p>
-        </div>
-        
-        {/* Action Buttons */}
-        <div className="flex flex-col sm:flex-row justify-center gap-6 mb-12">
-          <a href="/projects#demo-section" className="bg-blue-500 text-white px-8 py-3 rounded-lg font-medium hover:bg-blue-600 transition-all duration-300 text-center">
-            See How I Think
+        {/* Enhanced Action Buttons */}
+        <div className="flex flex-col sm:flex-row justify-center gap-6 mb-16">
+          <a href="/projects#demo-section" className="group relative bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-10 py-4 rounded-xl font-space-grotesk font-semibold hover:from-blue-500 hover:to-cyan-500 transition-all duration-300 text-center shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:scale-105">
+            <span className="flex items-center justify-center">
+              See How I Think
+              <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
+              </svg>
+            </span>
           </a>
-          <a href="/insights/ai-personality-experiment" className="border border-purple-500 text-purple-400 px-8 py-3 rounded-lg font-medium hover:bg-purple-500 hover:text-white transition-all duration-300 text-center">
-            LLM Personality Study
+          <a href="/insights/data-shapes-personality" className="group border-2 border-purple-500 text-purple-300 px-10 py-4 rounded-xl font-space-grotesk font-semibold hover:bg-purple-500 hover:text-white transition-all duration-300 text-center hover:shadow-lg hover:shadow-purple-500/25 hover:scale-105">
+            <span className="flex items-center justify-center">
+              LLM Personality Study
+              <svg className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+              </svg>
+            </span>
           </a>
         </div>
         
         {/* Skills Highlight */}
         
-        {/* Quick Stats */}
-        <div className="grid md:grid-cols-3 gap-4 mb-8">
-          <div className="bg-gradient-to-br from-blue-800/20 to-blue-700/10 backdrop-blur-sm p-4 rounded-xl border border-blue-500/20 text-center">
-            <div className="text-2xl font-bold text-blue-400">3</div>
-            <div className="text-xs text-gray-400">AI Experiments Running</div>
+        {/* Enhanced Stats Cards */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <div className="group bg-gradient-to-br from-blue-800/30 to-blue-700/20 backdrop-blur-lg p-6 rounded-2xl border border-blue-500/30 text-center hover:border-blue-400/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20">
+            <div className="flex items-center justify-center mb-3">
+              <svg className="w-8 h-8 text-blue-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+              </svg>
+            </div>
+            <div className="text-3xl font-space-grotesk font-black text-blue-400 mb-2">3</div>
+            <div className="text-sm text-gray-300 font-inter font-medium">AI Experiments Running</div>
           </div>
-          <div className="bg-gradient-to-br from-purple-800/20 to-purple-700/10 backdrop-blur-sm p-4 rounded-xl border border-purple-500/20 text-center">
-            <div className="text-2xl font-bold text-purple-400">∞</div>
-            <div className="text-xs text-gray-400">Questions Asked Daily</div>
+          <div className="group bg-gradient-to-br from-purple-800/30 to-purple-700/20 backdrop-blur-lg p-6 rounded-2xl border border-purple-500/30 text-center hover:border-purple-400/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/20">
+            <div className="flex items-center justify-center mb-3">
+              <svg className="w-8 h-8 text-purple-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </div>
+            <div className="text-3xl font-space-grotesk font-black text-purple-400 mb-2">∞</div>
+            <div className="text-sm text-gray-300 font-inter font-medium">Questions Asked Daily</div>
           </div>
-          <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 backdrop-blur-sm p-4 rounded-xl border border-green-500/20 text-center">
-            <div className="text-2xl font-bold text-green-400">1</div>
-            <div className="text-xs text-gray-400">Human-Centric Focus</div>
+          <div className="group bg-gradient-to-br from-amber-800/30 to-amber-700/20 backdrop-blur-lg p-6 rounded-2xl border border-amber-500/30 text-center hover:border-amber-400/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-amber-500/20">
+            <div className="flex items-center justify-center mb-3">
+              <svg className="w-8 h-8 text-amber-400 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+              </svg>
+            </div>
+            <div className="text-3xl font-space-grotesk font-black text-amber-400 mb-2">1</div>
+            <div className="text-sm text-gray-300 font-inter font-medium">Human-Centric Focus</div>
           </div>
         </div>
 
@@ -355,11 +399,6 @@ export default function Home() {
             </p>
           </div>
           
-          <div className="text-center mt-6">
-            <p className="text-gray-400 text-sm italic">
-              "The best questions are the ones that make you realize how little you actually knew before asking them."
-            </p>
-          </div>
         </div>
       </section>
 

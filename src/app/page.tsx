@@ -1,93 +1,100 @@
 export default function Home() {
   return (
-    <main className="min-h-screen bg-black text-white overflow-hidden relative">
-      {/* Enhanced AI Neural Network Background */}
-      <div className="absolute inset-0 opacity-30">
-        <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-cyan-500/15 via-purple-500/15 via-amber-500/10 to-pink-500/15"></div>
-        {/* Animated Grid */}
-        <div className="absolute inset-0 bg-[linear-gradient(rgba(0,255,255,0.05)_1px,transparent_1px),linear-gradient(90deg,rgba(0,255,255,0.05)_1px,transparent_1px)] bg-[size:40px_40px] animate-pulse"></div>
-        {/* Enhanced Neural Network Connections */}
-        <div className="absolute top-1/4 left-1/4 w-3 h-3 bg-cyan-400 rounded-full animate-ping shadow-lg shadow-cyan-400/50"></div>
-        <div className="absolute top-3/4 right-1/3 w-3 h-3 bg-purple-400 rounded-full animate-ping delay-500 shadow-lg shadow-purple-400/50"></div>
-        <div className="absolute bottom-1/3 left-2/3 w-3 h-3 bg-amber-400 rounded-full animate-ping delay-1000 shadow-lg shadow-amber-400/50"></div>
-        <div className="absolute top-1/2 left-1/2 w-2 h-2 bg-pink-400 rounded-full animate-ping delay-700 shadow-lg shadow-pink-400/50"></div>
-        
-        {/* Connecting Lines Animation */}
-        <svg className="absolute inset-0 w-full h-full opacity-20">
-          <defs>
-            <linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" stopColor="#00ffff" stopOpacity="0.6" />
-              <stop offset="50%" stopColor="#a855f7" stopOpacity="0.4" />
-              <stop offset="100%" stopColor="#ec4899" stopOpacity="0.6" />
-            </linearGradient>
-          </defs>
-          <line x1="25%" y1="25%" x2="75%" y2="75%" stroke="url(#lineGradient)" strokeWidth="1" className="animate-pulse" />
-          <line x1="75%" y1="33%" x2="25%" y2="67%" stroke="url(#lineGradient)" strokeWidth="1" className="animate-pulse delay-300" />
-        </svg>
+    <main className="min-h-screen bg-white text-gray-900 relative">
+      {/* Subtle Paper Texture Background */}
+      <div className="absolute inset-0 opacity-5">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,_rgba(0,0,0,0.15)_1px,_transparent_0)] bg-[size:20px_20px]"></div>
       </div>
       
-      {/* AI Matrix Effect - Scrolling Code */}
-      <div className="absolute right-0 top-0 h-full w-32 overflow-hidden opacity-10">
-        <div className="animate-scroll-slow font-mono text-xs text-green-400 whitespace-nowrap">
-          {Array.from({length: 50}, (_, i) => (
-            <div key={i} className="py-1">
-              {Math.random() > 0.5 ? 'AI_MODEL_TRAIN()' : 'NEURAL_PROCESS()'}
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* Minimalist Accent Lines */}
+      <div className="absolute top-0 left-0 w-1 h-full bg-gradient-to-b from-emerald-500 via-blue-500 to-purple-500 opacity-60"></div>
+      <div className="absolute top-0 right-0 w-px h-full bg-gray-200"></div>
       
       
-      {/* Header */}
-      <nav className="relative z-10 flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <div className="text-2xl font-space-grotesk font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer tracking-tight">
-          SIGNALSTACK
+      {/* Clean Minimalist Header */}
+      <nav className="relative z-10 flex justify-between items-center py-8 px-8 max-w-7xl mx-auto border-b border-gray-100">
+        <div className="text-3xl font-space-grotesk font-bold text-gray-900 hover:text-emerald-600 transition-colors duration-300 cursor-pointer">
+          SignalStack
         </div>
-        <div className="flex space-x-8">
-          <div className="relative group">
-            <a href="/insights" className="text-gray-400 hover:text-blue-500 font-medium text-sm tracking-wider transition-colors duration-300">
-              INSIGHTS
-            </a>
-            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-500 group-hover:w-full transition-all duration-300"></div>
-          </div>
-          <div className="relative group">
-            <a href="/projects" className="text-gray-400 hover:text-purple-500 font-medium text-sm tracking-wider transition-colors duration-300">
-              PROJECTS
-            </a>
-            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-purple-500 group-hover:w-full transition-all duration-300"></div>
-          </div>
-          <div className="relative group">
-            <a href="#about" className="text-gray-400 hover:text-gray-300 font-medium text-sm tracking-wider transition-colors duration-300">
-              ABOUT
-            </a>
-            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-300 group-hover:w-full transition-all duration-300"></div>
-          </div>
-          <div className="relative group">
-            <a href="#connect" className="text-gray-400 hover:text-green-500 font-medium text-sm tracking-wider transition-colors duration-300">
-              CONNECT
-            </a>
-            <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-green-500 group-hover:w-full transition-all duration-300"></div>
-          </div>
+        <div className="flex space-x-10">
+          <a href="/insights" className="text-gray-600 hover:text-gray-900 font-inter font-medium transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-emerald-500 hover:after:w-full after:transition-all after:duration-300">
+            Insights
+          </a>
+          <a href="/projects" className="text-gray-600 hover:text-gray-900 font-inter font-medium transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-blue-500 hover:after:w-full after:transition-all after:duration-300">
+            Projects
+          </a>
+          <a href="#about" className="text-gray-600 hover:text-gray-900 font-inter font-medium transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-purple-500 hover:after:w-full after:transition-all after:duration-300">
+            About
+          </a>
+          <a href="#connect" className="text-gray-600 hover:text-gray-900 font-inter font-medium transition-colors duration-200 relative after:absolute after:bottom-0 after:left-0 after:w-0 after:h-0.5 after:bg-gray-900 hover:after:w-full after:transition-all after:duration-300">
+            Connect
+          </a>
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="relative z-10 max-w-5xl mx-auto px-8 py-24 text-center">
-        <div className="mb-20">
-          <div className="text-center mb-12">
-            <h1 className="text-6xl md:text-7xl lg:text-8xl font-space-grotesk font-black text-white mb-6 leading-tight tracking-tight">
-              SignalStack
-            </h1>
-            <div className="max-w-2xl mx-auto">
-              <p className="text-2xl md:text-3xl text-gray-300 font-inter font-light mb-4 leading-relaxed">
-                Where AI signals meet human insight
+      {/* Editorial Hero Section */}
+      <section className="relative z-10 max-w-6xl mx-auto px-8 py-20">
+        <div className="grid lg:grid-cols-2 gap-16 items-center">
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <div className="flex items-center space-x-3">
+                <div className="w-2 h-2 bg-emerald-500 rounded-full"></div>
+                <span className="text-emerald-600 font-inter font-medium text-sm uppercase tracking-wider">AI Experimentation & Pattern Recognition</span>
+              </div>
+              <h1 className="text-5xl md:text-6xl font-space-grotesk font-bold text-gray-900 leading-tight">
+                Decoding AI behavior to build human-centric systems
+              </h1>
+              <p className="text-xl text-gray-600 font-inter leading-relaxed">
+                Through experimentation and pattern recognition, I decode the signals that reveal how different AIs think and behave, serving the critical need to build truly human-centric AI systems.
               </p>
-              <div className="w-24 h-1 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mx-auto rounded-full opacity-60"></div>
+            </div>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a href="/projects#demo-section" className="inline-flex items-center justify-center bg-gray-900 text-white px-8 py-4 font-inter font-medium hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl">
+                View My Work
+                <svg className="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                </svg>
+              </a>
+              <a href="/insights/data-shapes-personality" className="inline-flex items-center justify-center border-2 border-gray-900 text-gray-900 px-8 py-4 font-inter font-medium hover:bg-gray-900 hover:text-white transition-all duration-200">
+                Read Latest Insights
+              </a>
             </div>
           </div>
+          
+          <div className="relative">
+            <div className="bg-gradient-to-br from-gray-50 to-gray-100 p-12 border border-gray-200">
+              <div className="space-y-6">
+                <div className="flex items-start space-x-4">
+                  <div className="w-3 h-3 bg-blue-500 rounded-full mt-2"></div>
+                  <div>
+                    <h3 className="font-space-grotesk font-semibold text-gray-900 mb-2">Pattern Recognition in AI Behavior</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">When AI systems respond differently to the same prompt, I decode these patterns to understand how different training approaches shape AI behavior.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-3 h-3 bg-emerald-500 rounded-full mt-2"></div>
+                  <div>
+                    <h3 className="font-space-grotesk font-semibold text-gray-900 mb-2">Human-Centric Experimentation</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Through systematic testing, I explore how AI can better serve diverse human needs across different contexts and cultures.</p>
+                  </div>
+                </div>
+                <div className="flex items-start space-x-4">
+                  <div className="w-3 h-3 bg-purple-500 rounded-full mt-2"></div>
+                  <div>
+                    <h3 className="font-space-grotesk font-semibold text-gray-900 mb-2">Learning Through Practice</h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">Every experiment teaches me something new about making AI systems that genuinely understand and serve human needs.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="absolute -bottom-4 -right-4 w-full h-full bg-emerald-100 -z-10"></div>
+          </div>
         </div>
-        
-        
+      </section>
+
+      {/* Stats & Status Section */}
+      <section className="relative z-10 max-w-6xl mx-auto px-8 py-20">
         {/* Enhanced Action Buttons */}
         <div className="flex flex-col sm:flex-row justify-center gap-6 mb-16">
           <a href="/projects#demo-section" className="group relative bg-gradient-to-r from-blue-600 to-cyan-600 text-white px-10 py-4 rounded-xl font-space-grotesk font-semibold hover:from-blue-500 hover:to-cyan-500 transition-all duration-300 text-center shadow-lg shadow-blue-500/25 hover:shadow-blue-500/40 hover:scale-105">
@@ -107,9 +114,7 @@ export default function Home() {
             </span>
           </a>
         </div>
-        
-        {/* Skills Highlight */}
-        
+
         {/* Enhanced Stats Cards */}
         <div className="grid md:grid-cols-3 gap-6 mb-12">
           <div className="group bg-gradient-to-br from-blue-800/30 to-blue-700/20 backdrop-blur-lg p-6 rounded-2xl border border-blue-500/30 text-center hover:border-blue-400/50 transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/20">
@@ -157,7 +162,7 @@ export default function Home() {
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-purple-400 via-blue-400 to-cyan-400 mx-auto rounded-full mb-4"></div>
           <p className="text-lg text-gray-400 font-inter max-w-2xl mx-auto">
-            Deep dives into the intersection of human psychology and AI systems
+            Decoding the patterns and signals that reveal how AI systems think, behave, and can better serve human needs
           </p>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -196,8 +201,8 @@ export default function Home() {
                 AI Quality & Human Values
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6 font-inter text-base">
-                When experts disagree on what's "correct," we're seeing human values at work, not data quality issues. 
-                I design systems that embrace rather than flatten this essential complexity.
+                When experts disagree on what's "correct," I decode these signals to understand how human values shape AI quality.
+                Every disagreement reveals patterns that help build systems serving real human needs.
               </p>
               <div className="bg-gradient-to-r from-blue-500/15 to-cyan-500/10 rounded-xl p-6 border border-blue-400/20 backdrop-blur-sm">
                 <p className="text-blue-300 font-space-grotesk font-semibold mb-3 text-sm uppercase tracking-wider">Real Example</p>
@@ -243,7 +248,7 @@ export default function Home() {
           </h2>
           <div className="w-32 h-1 bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 mx-auto rounded-full mb-4"></div>
           <p className="text-lg text-gray-400 font-inter max-w-2xl mx-auto">
-            Real experiments and insights from the intersection of AI and human behavior
+            Practical experiments focused on making AI systems that genuinely understand and serve human needs
           </p>
         </div>
         <div className="grid md:grid-cols-2 gap-8 mb-16">
@@ -292,7 +297,7 @@ export default function Home() {
               <div className="flex flex-wrap gap-3 mb-8">
                 <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">Preference Modeling</span>
                 <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">Context Analysis</span>
-                <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">User Research</span>
+                <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">User Testing</span>
               </div>
               <a href="/projects/preference-modeling" className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl font-space-grotesk font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40">
                 View Framework
@@ -433,24 +438,24 @@ export default function Home() {
                 <h3 className="text-xl font-bold text-white">Crystal Wang</h3>
               </div>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                I used to think AI was about perfect algorithms. Then I started doing data annotation work and realized something: 
-                the "experts" disagreed on what made responses good. A lot.
+                I used to think AI was about perfect algorithms. Then I started experimenting with data annotation and discovered something fascinating:
+                when "experts" disagree, they're revealing the hidden complexity of human values. This became my focus.
               </p>
               <p className="text-gray-300 mb-6 leading-relaxed">
-                That disagreement isn't noise—it's the signal. It's where the real work is. 
-                Now I'm building systems that understand human complexity instead of flattening it away.
+                I'm not a researcher—I'm someone who learns by doing. Through hands-on experimentation and pattern recognition,
+                I decode the signals that show how different AIs think and behave, always with one goal: building systems that truly serve human needs.
               </p>
               <div className="flex flex-wrap gap-3">
                 <span className="px-4 py-2 bg-cyan-500/20 text-cyan-300 rounded-full text-sm font-medium">Program Management</span>
                 <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm font-medium">AI Strategy</span>
-                <span className="px-4 py-2 bg-green-500/20 text-green-300 rounded-full text-sm font-medium">Human-Centered Design</span>
+                <span className="px-4 py-2 bg-green-500/20 text-green-300 rounded-full text-sm font-medium">Pattern Recognition</span>
               </div>
             </div>
             <div className="space-y-6">
               <div className="bg-gradient-to-r from-purple-800/20 to-pink-800/20 p-6 rounded-xl border border-purple-500/20">
                 <h4 className="text-lg font-bold text-white mb-2">Open To</h4>
                 <p className="text-gray-300 text-sm">
-                  Collaborations, speaking opportunities, and conversations about preference modeling and AI ethics
+                  Collaborations, conversations about human-centric AI, and opportunities to learn from real-world AI experiments
                 </p>
               </div>
             </div>
@@ -523,8 +528,8 @@ export default function Home() {
         <div className="bg-gradient-to-r from-purple-800/30 via-pink-800/30 to-blue-800/30 backdrop-blur-lg rounded-2xl p-12 border border-purple-500/20">
           <h2 className="text-2xl font-bold mb-4 text-white">Learning in Public, Building for the Future</h2>
           <p className="text-gray-300 mb-8 max-w-3xl mx-auto">
-            I believe the future of AI lies in understanding human needs as deeply as we understand algorithms. 
-            Join me in exploring how we can shape AI to truly serve humanity—one question, one insight, one experiment at a time.
+            Every experiment I run, every pattern I decode, every signal I interpret serves one purpose: building AI that genuinely helps people.
+            Join me in this mission to create technology that adapts to human needs, not the other way around.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a href="/projects" className="bg-gradient-to-r from-purple-600 to-blue-600 text-white px-8 py-3 rounded-xl font-semibold hover:scale-105 transition-all duration-300 hover:shadow-lg hover:shadow-purple-500/25 text-center">

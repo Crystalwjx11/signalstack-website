@@ -447,12 +447,6 @@ export default function Home() {
               </div>
             </div>
             <div className="space-y-6">
-              <div className="bg-gradient-to-r from-cyan-800/20 to-purple-800/20 p-6 rounded-xl border border-cyan-500/20">
-                <h4 className="text-lg font-bold text-white mb-2">Current Focus</h4>
-                <p className="text-gray-300 text-sm">
-                  Seeking AI PM roles and co-founder opportunities to build human-centered AI products at scale
-                </p>
-              </div>
               <div className="bg-gradient-to-r from-purple-800/20 to-pink-800/20 p-6 rounded-xl border border-purple-500/20">
                 <h4 className="text-lg font-bold text-white mb-2">Open To</h4>
                 <p className="text-gray-300 text-sm">

@@ -12,7 +12,7 @@ export default function Insights() {
 
       {/* Header */}
       <nav className="relative z-10 flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <a href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer">
+        <a href="/" className="text-2xl font-space-grotesk font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer tracking-tight">
           SIGNALSTACK
         </a>
         <div className="flex space-x-8">
@@ -34,7 +34,7 @@ export default function Insights() {
       {/* Hero Section */}
       <section className="relative z-10 max-w-5xl mx-auto px-8 py-16 text-center">
         <div className="mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">
+          <h1 className="text-5xl md:text-6xl font-space-grotesk font-black leading-tight mb-8 tracking-tight">
             <span className="block bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent">
               AI Insights
             </span>
@@ -53,7 +53,7 @@ export default function Insights() {
             <span className="text-purple-400 font-mono text-sm">FEATURED_INSIGHT</span>
             <div className="ml-auto text-sm text-gray-400">5 min read</div>
           </div>
-          <h2 className="text-3xl font-bold text-white mb-6">
+          <h2 className="text-3xl font-space-grotesk font-bold text-white mb-6">
             Why AI "Accuracy" is a Human Problem, Not a Technical One
           </h2>
           <p className="text-lg text-gray-300 mb-6 leading-relaxed">
@@ -69,12 +69,12 @@ export default function Insights() {
               the most important signal in the entire dataset.
             </p>
           </div>
-          <div className="flex flex-wrap gap-2 mb-6">
-            <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">Human Preferences</span>
-            <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">Data Annotation</span>
-            <span className="px-3 py-1 bg-purple-500/20 text-purple-300 rounded-full text-sm">AI Quality</span>
+          <div className="flex flex-wrap gap-3 mb-8">
+            <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">Human Preferences</span>
+            <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">Data Annotation</span>
+            <span className="px-4 py-2 bg-gradient-to-r from-purple-500/25 to-pink-500/20 text-purple-200 rounded-full text-sm font-inter font-medium border border-purple-400/20">AI Quality</span>
           </div>
-          <a href="/insights/data-shapes-personality" className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-xl font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105">
+          <a href="/insights/data-shapes-personality" className="inline-flex items-center bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-4 rounded-xl font-space-grotesk font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105 shadow-lg shadow-purple-500/25 hover:shadow-purple-500/40">
             Read Full Article
           </a>
         </div>
@@ -82,7 +82,7 @@ export default function Insights() {
 
       {/* Articles Grid */}
       <section className="relative z-10 max-w-6xl mx-auto px-8 py-12">
-        <h2 className="text-2xl font-bold text-white mb-8">Latest Insights</h2>
+        <h2 className="text-3xl font-space-grotesk font-bold text-white mb-8">Latest Insights</h2>
         <div className="grid md:grid-cols-2 gap-8">
           
           {/* Article 1 */}
@@ -92,7 +92,7 @@ export default function Insights() {
               <span className="text-cyan-400 font-mono text-xs">FRAMEWORK</span>
               <div className="ml-auto text-xs text-gray-400">8 min read</div>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               Building Context-Aware Preference Systems
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -117,7 +117,7 @@ export default function Insights() {
               <span className="text-blue-400 font-mono text-xs">STRATEGY</span>
               <div className="ml-auto text-xs text-gray-400">6 min read</div>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               From Metrics to Meaning: Redefining AI Success
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -142,7 +142,7 @@ export default function Insights() {
               <span className="text-green-400 font-mono text-xs">CASE_STUDY</span>
               <div className="ml-auto text-xs text-gray-400">10 min read</div>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               The Disagreement Signal: Learning from Annotation Conflicts
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -167,7 +167,7 @@ export default function Insights() {
               <span className="text-pink-400 font-mono text-xs">INDUSTRY</span>
               <div className="ml-auto text-xs text-gray-400">7 min read</div>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               Program Manager's Guide to AI Product Development
             </h3>
             <p className="text-gray-300 mb-4 leading-relaxed">
@@ -187,28 +187,6 @@ export default function Insights() {
         </div>
       </section>
 
-      {/* Newsletter Signup */}
-      <section className="relative z-10 max-w-4xl mx-auto px-8 py-20">
-        <div className="bg-gradient-to-r from-gray-800/30 to-gray-700/20 backdrop-blur-lg rounded-2xl p-12 border border-gray-600/20 text-center">
-          <h2 className="text-2xl font-bold text-white mb-4">Stay Updated</h2>
-          <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
-            Get the latest insights on human-centered AI development, preference modeling, and the future of AI-human collaboration.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
-            <input 
-              type="email" 
-              placeholder="Enter your email" 
-              className="flex-1 bg-gray-800/50 border border-gray-600 rounded-lg px-4 py-3 text-white focus:border-purple-400 focus:outline-none"
-            />
-            <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300">
-              Subscribe
-            </button>
-          </div>
-          <p className="text-xs text-gray-400 mt-4">
-            No spam, unsubscribe at any time.
-          </p>
-        </div>
-      </section>
     </main>
   )
 }

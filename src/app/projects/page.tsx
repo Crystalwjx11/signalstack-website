@@ -12,7 +12,7 @@ export default function Projects() {
 
       {/* Header */}
       <nav className="relative z-10 flex justify-between items-center p-6 max-w-6xl mx-auto">
-        <a href="/" className="text-2xl font-bold bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer">
+        <a href="/" className="text-2xl font-space-grotesk font-black bg-gradient-to-r from-cyan-400 via-purple-400 to-pink-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 cursor-pointer tracking-tight">
           SIGNALSTACK
         </a>
         <div className="flex space-x-8">
@@ -34,7 +34,7 @@ export default function Projects() {
       {/* Hero Section */}
       <section className="relative z-10 max-w-5xl mx-auto px-8 py-16 text-center">
         <div className="mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold leading-tight mb-8">
+          <h1 className="text-5xl md:text-6xl font-space-grotesk font-black leading-tight mb-8 tracking-tight">
             <span className="block bg-gradient-to-r from-purple-400 via-cyan-400 to-pink-400 bg-clip-text text-transparent">
               Featured Work
             </span>
@@ -72,7 +72,7 @@ export default function Projects() {
             <div className="ml-auto text-sm text-gray-400">Ongoing Research</div>
           </div>
           
-          <h2 className="text-4xl font-bold text-white mb-6">
+          <h2 className="text-4xl font-space-grotesk font-bold text-white mb-6">
             Human Preference Modeling Framework
           </h2>
           
@@ -139,7 +139,7 @@ export default function Projects() {
 
       {/* Project Grid */}
       <section className="relative z-10 max-w-6xl mx-auto px-8 py-12">
-        <h2 className="text-2xl font-bold text-white mb-8">All Projects</h2>
+        <h2 className="text-3xl font-space-grotesk font-bold text-white mb-8">All Projects</h2>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           
           {/* Project 1: Data Annotation Insights */}
@@ -148,7 +148,7 @@ export default function Projects() {
               <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-cyan-400 font-mono text-sm">CASE_STUDY</span>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               The Subjectivity of AI Quality
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
@@ -169,7 +169,7 @@ export default function Projects() {
               <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-green-400 font-mono text-sm">LIVE_DEMO</span>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               AI Model Training Lifecycle
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
@@ -190,7 +190,7 @@ export default function Projects() {
               <div className="w-3 h-3 bg-blue-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-blue-400 font-mono text-sm">FRAMEWORK</span>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               Human-Centered AI Strategy
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
@@ -211,7 +211,7 @@ export default function Projects() {
               <div className="w-3 h-3 bg-pink-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-pink-400 font-mono text-sm">OPEN_SOURCE</span>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               SignalStack Website
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
@@ -232,7 +232,7 @@ export default function Projects() {
               <div className="w-3 h-3 bg-yellow-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-yellow-400 font-mono text-sm">INSIGHTS</span>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               AI Insights & Analysis
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
@@ -253,7 +253,7 @@ export default function Projects() {
               <div className="w-3 h-3 bg-purple-400 rounded-full animate-pulse mr-3"></div>
               <span className="text-purple-400 font-mono text-sm">CONNECT</span>
             </div>
-            <h3 className="text-xl font-bold text-white mb-3">
+            <h3 className="text-xl font-space-grotesk font-bold text-white mb-3">
               Let's Collaborate
             </h3>
             <p className="text-gray-300 text-sm mb-4 leading-relaxed">
@@ -272,7 +272,7 @@ export default function Projects() {
 
       {/* Live Demo Section */}
       <section id="demo-section" className="relative z-10 max-w-5xl mx-auto px-8 py-20">
-        <h2 className="text-3xl font-bold text-center mb-8 text-white">
+        <h2 className="text-3xl font-space-grotesk font-bold text-center mb-8 text-white">
           See My Work in Action
         </h2>
         
@@ -283,7 +283,7 @@ export default function Projects() {
                 <div className="w-4 h-4 bg-blue-400 rounded-full animate-pulse mr-3"></div>
                 <span className="text-blue-400 font-mono text-sm">LIVE_DEMO</span>
               </div>
-              <h3 className="text-2xl font-bold text-white mb-4">
+              <h3 className="text-2xl font-space-grotesk font-bold text-white mb-4">
                 AI Model Training Lifecycle
               </h3>
               <p className="text-gray-300 leading-relaxed mb-4">
@@ -339,7 +339,7 @@ export default function Projects() {
       {/* Collaboration CTA */}
       <section className="relative z-10 max-w-4xl mx-auto px-8 py-20">
         <div className="bg-gradient-to-r from-purple-800/30 via-pink-800/30 to-blue-800/30 backdrop-blur-lg rounded-2xl p-12 border border-purple-500/20 text-center">
-          <h2 className="text-2xl font-bold mb-4 text-white">Interested in Collaborating?</h2>
+          <h2 className="text-2xl font-space-grotesk font-bold mb-4 text-white">Interested in Collaborating?</h2>
           <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
             I'm always open to discussing these projects, sharing insights, or exploring potential collaborations on human-centered AI research.
           </p>

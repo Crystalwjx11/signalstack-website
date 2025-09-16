@@ -80,7 +80,7 @@ export default function HumanCenteredAIStrategy() {
             <div className="grid md:grid-cols-2 gap-6">
               <div>
                 <h5 className="text-sm font-bold text-red-300 mb-2">Traditional AI Strategy</h5>
-                <ul className="text-sm text-gray-300 space-y-1">
+                <ul className="text-base text-gray-300 space-y-1">
                   <li>• Automate specific tasks</li>
                   <li>• Replace human roles</li>
                   <li>• Focus on efficiency metrics</li>
@@ -89,7 +89,7 @@ export default function HumanCenteredAIStrategy() {
               </div>
               <div>
                 <h5 className="text-sm font-bold text-green-300 mb-2">Human-Centered AI Strategy</h5>
-                <ul className="text-sm text-gray-300 space-y-1">
+                <ul className="text-base text-gray-300 space-y-1">
                   <li>• Amplify human capabilities</li>
                   <li>• Enable custom tool creation</li>
                   <li>• Measure human empowerment</li>
@@ -123,7 +123,7 @@ export default function HumanCenteredAIStrategy() {
             <div className="grid md:grid-cols-2 gap-6">
               <div className="bg-purple-500/10 rounded-lg p-4 border border-purple-500/20">
                 <h4 className="text-lg font-medium text-purple-300 mb-2">What This Looks Like</h4>
-                <ul className="text-sm text-gray-300 space-y-1">
+                <ul className="text-base text-gray-300 space-y-1">
                   <li>• AI suggests, humans decide</li>
                   <li>• Transparent reasoning behind AI recommendations</li>
                   <li>• Easy overrides and customization</li>
@@ -132,7 +132,7 @@ export default function HumanCenteredAIStrategy() {
               </div>
               <div className="bg-red-500/10 rounded-lg p-4 border border-red-500/20">
                 <h4 className="text-lg font-medium text-red-300 mb-2">What to Avoid</h4>
-                <ul className="text-sm text-gray-300 space-y-1">
+                <ul className="text-base text-gray-300 space-y-1">
                   <li>• Black box decision-making</li>
                   <li>• Removing human choice</li>
                   <li>• "Trust the algorithm" messaging</li>
@@ -142,8 +142,8 @@ export default function HumanCenteredAIStrategy() {
             </div>
             
             <div className="mt-6 bg-gradient-to-r from-purple-500/10 to-pink-500/10 rounded-lg p-4 border border-purple-500/20">
-              <p className="text-sm text-purple-200">
-                <strong>Real Example:</strong> Microsoft's Copilot Pages lets teams collaborate on AI-generated content, 
+              <p className="text-base text-purple-200">
+                <strong>Real Example:</strong> Microsoft's Copilot Pages lets teams collaborate on AI-generated content,
                 but humans control every edit, iteration, and final decision. The AI accelerates, humans direct.
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function HumanCenteredAIStrategy() {
                 <div className="grid md:grid-cols-3 gap-4">
                   <div>
                     <h5 className="text-sm font-bold text-white mb-2">User Context</h5>
-                    <ul className="text-xs text-gray-300 space-y-1">
+                    <ul className="text-base text-gray-300 space-y-1">
                       <li>• Role & expertise level</li>
                       <li>• Goals & constraints</li>
                       <li>• Communication preferences</li>
@@ -178,7 +178,7 @@ export default function HumanCenteredAIStrategy() {
                   </div>
                   <div>
                     <h5 className="text-sm font-bold text-white mb-2">Situational Context</h5>
-                    <ul className="text-xs text-gray-300 space-y-1">
+                    <ul className="text-base text-gray-300 space-y-1">
                       <li>• Urgency level</li>
                       <li>• Available resources</li>
                       <li>• Risk tolerance</li>
@@ -187,7 +187,7 @@ export default function HumanCenteredAIStrategy() {
                   </div>
                   <div>
                     <h5 className="text-sm font-bold text-white mb-2">Organizational Context</h5>
-                    <ul className="text-xs text-gray-300 space-y-1">
+                    <ul className="text-base text-gray-300 space-y-1">
                       <li>• Company culture</li>
                       <li>• Industry standards</li>
                       <li>• Regulatory requirements</li>
@@ -199,8 +199,8 @@ export default function HumanCenteredAIStrategy() {
             </div>
             
             <div className="mt-6 bg-gradient-to-r from-cyan-500/10 to-blue-500/10 rounded-lg p-4 border border-cyan-500/20">
-              <p className="text-sm text-cyan-200">
-                <strong>Strategic Implementation:</strong> Don't ask users to adapt to your AI. Build AI that adapts to users. 
+              <p className="text-base text-cyan-200">
+                <strong>Strategic Implementation:</strong> Don't ask users to adapt to your AI. Build AI that adapts to users.
                 This requires investing in user research, not just algorithm development.
               </p>
             </div>
@@ -224,7 +224,7 @@ export default function HumanCenteredAIStrategy() {
               <div>
                 <h4 className="text-lg font-semibold text-green-300 mb-3">The Wrong Approach</h4>
                 <div className="bg-red-500/10 rounded-lg p-4 border border-red-500/20">
-                  <ul className="text-sm text-gray-300 space-y-2">
+                  <ul className="text-base text-gray-300 space-y-2">
                     <li>• "Add ChatGPT button to existing interface"</li>
                     <li>• Keep all current steps, just make them AI-powered</li>
                     <li>• Force AI into legacy workflows</li>
@@ -236,7 +236,7 @@ export default function HumanCenteredAIStrategy() {
               <div>
                 <h4 className="text-lg font-semibold text-green-300 mb-3">The Strategic Approach</h4>
                 <div className="bg-green-500/10 rounded-lg p-4 border border-green-500/20">
-                  <ul className="text-sm text-gray-300 space-y-2">
+                  <ul className="text-base text-gray-300 space-y-2">
                     <li>• Map current friction points and cognitive load</li>
                     <li>• Identify where human creativity adds most value</li>
                     <li>• Design AI-human handoffs intentionally</li>
@@ -251,19 +251,19 @@ export default function HumanCenteredAIStrategy() {
               <div className="space-y-3">
                 <div className="flex items-center">
                   <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-xs font-bold mr-3">1</div>
-                  <p className="text-sm text-gray-300"><strong>Audit:</strong> Where do users spend time on low-value tasks?</p>
+                  <p className="text-base text-gray-300"><strong>Audit:</strong> Where do users spend time on low-value tasks?</p>
                 </div>
                 <div className="flex items-center">
                   <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-xs font-bold mr-3">2</div>
-                  <p className="text-sm text-gray-300"><strong>Identify:</strong> Which decisions require human judgment vs. pattern recognition?</p>
+                  <p className="text-base text-gray-300"><strong>Identify:</strong> Which decisions require human judgment vs. pattern recognition?</p>
                 </div>
                 <div className="flex items-center">
                   <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-xs font-bold mr-3">3</div>
-                  <p className="text-sm text-gray-300"><strong>Redesign:</strong> Create new workflows where AI handles routine, humans handle nuanced</p>
+                  <p className="text-base text-gray-300"><strong>Redesign:</strong> Create new workflows where AI handles routine, humans handle nuanced</p>
                 </div>
                 <div className="flex items-center">
                   <div className="w-8 h-8 bg-green-600 rounded-full flex items-center justify-center text-xs font-bold mr-3">4</div>
-                  <p className="text-sm text-gray-300"><strong>Measure:</strong> Track human satisfaction and empowerment, not just efficiency</p>
+                  <p className="text-base text-gray-300"><strong>Measure:</strong> Track human satisfaction and empowerment, not just efficiency</p>
                 </div>
               </div>
             </div>
@@ -286,7 +286,7 @@ export default function HumanCenteredAIStrategy() {
             <div className="grid md:grid-cols-2 gap-6 mb-6">
               <div className="bg-yellow-500/10 rounded-lg p-6 border border-yellow-500/20">
                 <h4 className="text-lg font-semibold text-yellow-300 mb-3">Core Principles</h4>
-                <ul className="text-sm text-gray-300 space-y-2">
+                <ul className="text-base text-gray-300 space-y-2">
                   <li>• <strong>Transparency:</strong> Users understand how AI makes recommendations</li>
                   <li>• <strong>Fairness:</strong> AI works equitably across different user groups</li>
                   <li>• <strong>Privacy:</strong> Data use is minimal, consensual, and secure</li>
@@ -296,7 +296,7 @@ export default function HumanCenteredAIStrategy() {
               
               <div className="bg-orange-500/10 rounded-lg p-6 border border-orange-500/20">
                 <h4 className="text-lg font-semibold text-orange-300 mb-3">Implementation Strategy</h4>
-                <ul className="text-sm text-gray-300 space-y-2">
+                <ul className="text-base text-gray-300 space-y-2">
                   <li>• <strong>Red Team Early:</strong> Test for bias and failure modes</li>
                   <li>• <strong>Diverse Testing:</strong> Include underrepresented user groups</li>
                   <li>• <strong>Continuous Monitoring:</strong> Track AI performance across demographics</li>
@@ -306,8 +306,8 @@ export default function HumanCenteredAIStrategy() {
             </div>
             
             <div className="bg-gradient-to-r from-yellow-500/10 to-orange-500/10 rounded-lg p-4 border border-yellow-500/20">
-              <p className="text-sm text-yellow-200">
-                <strong>Business Case:</strong> Responsible AI isn't just ethical—it's strategic. Users trust products that respect their agency, 
+              <p className="text-base text-yellow-200">
+                <strong>Business Case:</strong> Responsible AI isn't just ethical—it's strategic. Users trust products that respect their agency,
                 regulators favor companies with proactive compliance, and teams build better products when they consider human impact from the start.
               </p>
             </div>
@@ -334,8 +334,8 @@ export default function HumanCenteredAIStrategy() {
                   Microsoft's $3B India Investment (2025)
                 </a>
               </h4>
-              <p className="text-sm text-gray-300">
-                They're not just building data centers—they're training 10 million people in AI skills. 
+              <p className="text-base text-gray-300">
+                They're not just building data centers—they're training 10 million people in AI skills.
                 The message: human capability development scales alongside AI infrastructure.
               </p>
             </div>
@@ -349,8 +349,8 @@ export default function HumanCenteredAIStrategy() {
                   AI Adoption Jumping from 55% to 78% in 2025
                 </a>
               </h4>
-              <p className="text-sm text-gray-300">
-                Stanford's data shows rapid adoption, but the companies seeing ROI are the ones redesigning workflows, 
+              <p className="text-base text-gray-300">
+                Stanford's data shows rapid adoption, but the companies seeing ROI are the ones redesigning workflows,
                 not just implementing AI features.
               </p>
             </div>
@@ -364,8 +364,8 @@ export default function HumanCenteredAIStrategy() {
                   Julie Zhuo's "Death of Product Development"
                 </a>
               </h4>
-              <p className="text-sm text-gray-300">
-                AI is changing how teams build, but the winners combine AI efficiency with human empathy and intuition. 
+              <p className="text-base text-gray-300">
+                AI is changing how teams build, but the winners combine AI efficiency with human empathy and intuition.
                 Technology speeds up iteration; humans guide direction.
               </p>
             </div>
@@ -388,7 +388,7 @@ export default function HumanCenteredAIStrategy() {
         <div className="space-y-8">
           <div className="bg-gradient-to-br from-purple-900/20 to-purple-800/10 backdrop-blur-sm rounded-2xl p-6 border border-purple-500/20">
             <h3 className="text-xl font-bold text-purple-300 mb-4">Week 1-2: Foundation Research</h3>
-            <ul className="text-gray-300 space-y-2 text-sm">
+            <ul className="text-gray-300 space-y-2 text-base">
               <li>• Map your users' current workflows and pain points</li>
               <li>• Identify where humans add unique value vs. repetitive tasks</li>
               <li>• Benchmark existing user satisfaction and empowerment metrics</li>
@@ -398,7 +398,7 @@ export default function HumanCenteredAIStrategy() {
           
           <div className="bg-gradient-to-br from-blue-900/20 to-blue-800/10 backdrop-blur-sm rounded-2xl p-6 border border-blue-500/20">
             <h3 className="text-xl font-bold text-blue-300 mb-4">Week 3-4: Strategy Design</h3>
-            <ul className="text-gray-300 space-y-2 text-sm">
+            <ul className="text-gray-300 space-y-2 text-base">
               <li>• Define your human empowerment goals (not just efficiency gains)</li>
               <li>• Design AI-human collaboration patterns for each major workflow</li>
               <li>• Create context-awareness requirements for different user types</li>
@@ -408,7 +408,7 @@ export default function HumanCenteredAIStrategy() {
           
           <div className="bg-gradient-to-br from-green-900/20 to-green-800/10 backdrop-blur-sm rounded-2xl p-6 border border-green-500/20">
             <h3 className="text-xl font-bold text-green-300 mb-4">Week 5-8: Prototype & Test</h3>
-            <ul className="text-gray-300 space-y-2 text-sm">
+            <ul className="text-gray-300 space-y-2 text-base">
               <li>• Build small workflow prototypes with diverse user groups</li>
               <li>• Test for both efficiency and human satisfaction improvements</li>
               <li>• Validate AI recommendations are explainable and overridable</li>
@@ -418,7 +418,7 @@ export default function HumanCenteredAIStrategy() {
           
           <div className="bg-gradient-to-br from-yellow-900/20 to-yellow-800/10 backdrop-blur-sm rounded-2xl p-6 border border-yellow-500/20">
             <h3 className="text-xl font-bold text-yellow-300 mb-4">Ongoing: Scale & Refine</h3>
-            <ul className="text-gray-300 space-y-2 text-sm">
+            <ul className="text-gray-300 space-y-2 text-base">
               <li>• Monitor AI performance across different user demographics</li>
               <li>• Continuously refine context-awareness based on usage patterns</li>
               <li>• Expand successful patterns to new workflows and user types</li>

@@ -33,7 +33,7 @@ export default function CaseStudies() {
 
       {/* Breadcrumb */}
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-4">
-        <div className="flex items-center space-x-2 text-sm text-gray-400">
+        <div className="flex items-center space-x-2 text-base text-gray-400">
           <a href="/projects" className="hover:text-purple-400 transition-colors">Projects</a>
           <span>→</span>
           <span className="text-purple-400">Case Studies & Tools</span>

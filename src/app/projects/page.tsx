@@ -96,7 +96,7 @@ export default function Projects() {
               </p>
               <div className="bg-purple-500/10 rounded-lg p-4 border border-purple-500/20">
                 <h4 className="text-lg font-medium text-purple-300 mb-2">Key Innovation</h4>
-                <p className="text-sm text-gray-300">
+                <p className="text-base text-gray-300">
                   Instead of asking "Is this response good?", we ask "For whom, in what context, and according to which values?"
                 </p>
               </div>
@@ -106,29 +106,29 @@ export default function Projects() {
           <div className="grid md:grid-cols-3 gap-6 mb-8">
             <div className="bg-gradient-to-br from-cyan-800/20 to-cyan-700/10 p-6 rounded-xl border border-cyan-500/20">
               <h4 className="text-lg font-semibold text-white mb-2">Context Modeling</h4>
-              <p className="text-sm text-gray-300">
+              <p className="text-base text-gray-300">
                 Capturing situational factors that influence preference: urgency, expertise level, cultural context
               </p>
             </div>
             <div className="bg-gradient-to-br from-green-800/20 to-green-700/10 p-6 rounded-xl border border-green-500/20">
               <h4 className="text-lg font-semibold text-white mb-2">Value Alignment</h4>
-              <p className="text-sm text-gray-300">
+              <p className="text-base text-gray-300">
                 Identifying underlying human values that drive preferences: efficiency vs. thoroughness, creativity vs. accuracy
               </p>
             </div>
             <div className="bg-gradient-to-br from-pink-800/20 to-pink-700/10 p-6 rounded-xl border border-pink-500/20">
               <h4 className="text-lg font-semibold text-white mb-2">Dynamic Adaptation</h4>
-              <p className="text-sm text-gray-300">
+              <p className="text-base text-gray-300">
                 AI systems that learn and adapt to individual user preferences without losing generalizability
               </p>
             </div>
           </div>
           
           <div className="flex flex-wrap gap-3 mb-6">
-            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Machine Learning</span>
-            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">User Research</span>
-            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">Preference Modeling</span>
-            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-sm">AI Ethics</span>
+            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-base">Machine Learning</span>
+            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-base">User Research</span>
+            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-base">Preference Modeling</span>
+            <span className="px-4 py-2 bg-purple-500/20 text-purple-300 rounded-full text-base">AI Ethics</span>
           </div>
           
           <a href="/projects/preference-modeling" className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 text-white px-8 py-3 rounded-xl font-semibold hover:from-purple-500 hover:to-pink-500 transition-all duration-300 hover:scale-105">
@@ -155,10 +155,10 @@ export default function Projects() {
               How data annotation work revealed that expert disagreement is a feature, not a bug—and what this means for AI training.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">Data Science</span>
-              <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">Quality Metrics</span>
+              <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-sm">Data Science</span>
+              <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-sm">Quality Metrics</span>
             </div>
-            <div className="text-cyan-400 text-sm font-medium hover:text-cyan-300 transition-colors">
+            <div className="text-cyan-400 text-base font-medium hover:text-cyan-300 transition-colors">
               Read Case Study →
             </div>
           </a>
@@ -176,10 +176,10 @@ export default function Projects() {
               Watch me explain the complex AI model training process using intuitive cooking analogies that make technical concepts accessible.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">AI Training</span>
-              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Education</span>
+              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-sm">AI Training</span>
+              <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-sm">Education</span>
             </div>
-            <div className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
+            <div className="text-green-400 text-base font-medium hover:text-green-300 transition-colors">
               Watch Demo →
             </div>
           </a>
@@ -197,10 +197,10 @@ export default function Projects() {
               A strategic framework for building AI products that prioritize human values alongside technical capabilities.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">Product Strategy</span>
-              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">PM Framework</span>
+              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-sm">Product Strategy</span>
+              <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-sm">PM Framework</span>
             </div>
-            <div className="text-blue-400 text-sm font-medium hover:text-blue-300 transition-colors">
+            <div className="text-blue-400 text-base font-medium hover:text-blue-300 transition-colors">
               Coming Soon →
             </div>
           </div>
@@ -218,10 +218,10 @@ export default function Projects() {
               The source code for this website built with Next.js, showcasing modern web development and AI-forward design patterns.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Next.js</span>
-              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">TypeScript</span>
+              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-sm">Next.js</span>
+              <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-sm">TypeScript</span>
             </div>
-            <div className="text-pink-400 text-sm font-medium hover:text-pink-300 transition-colors">
+            <div className="text-pink-400 text-base font-medium hover:text-pink-300 transition-colors">
               View on GitHub →
             </div>
           </a>
@@ -239,10 +239,10 @@ export default function Projects() {
               Deep dives into AI development, human preference modeling, and building better AI systems through thoughtful analysis.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs">Analysis</span>
-              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-xs">Blog Posts</span>
+              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-sm">Analysis</span>
+              <span className="px-2 py-1 bg-yellow-500/20 text-yellow-300 rounded text-sm">Blog Posts</span>
             </div>
-            <div className="text-yellow-400 text-sm font-medium hover:text-yellow-300 transition-colors">
+            <div className="text-yellow-400 text-base font-medium hover:text-yellow-300 transition-colors">
               Read Insights →
             </div>
           </a>
@@ -260,10 +260,10 @@ export default function Projects() {
               Interested in discussing AI, human-centered design, or potential collaborations? I'd love to connect.
             </p>
             <div className="flex flex-wrap gap-1 mb-4">
-              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">Collaboration</span>
-              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-xs">Contact</span>
+              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-sm">Collaboration</span>
+              <span className="px-2 py-1 bg-purple-500/20 text-purple-300 rounded text-sm">Contact</span>
             </div>
-            <div className="text-purple-400 text-sm font-medium hover:text-purple-300 transition-colors">
+            <div className="text-purple-400 text-base font-medium hover:text-purple-300 transition-colors">
               Get in Touch →
             </div>
           </a>
@@ -291,10 +291,10 @@ export default function Projects() {
                 This demo explains everything from data preparation to deployment in accessible terms that anyone can understand.
               </p>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">AI Training</span>
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Model Lifecycle</span>
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Technical Communication</span>
-                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-sm">Analogical Thinking</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-base">AI Training</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-base">Model Lifecycle</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-base">Technical Communication</span>
+                <span className="px-3 py-1 bg-blue-500/20 text-blue-300 rounded-full text-base">Analogical Thinking</span>
               </div>
               <div className="bg-blue-500/10 rounded-lg p-4 border border-blue-500/20">
                 <p className="text-sm text-blue-200">
@@ -322,7 +322,7 @@ export default function Projects() {
         </div>
         
         <div className="text-center">
-          <p className="text-gray-400 text-sm mb-4">
+          <p className="text-gray-400 text-base mb-4">
             This demo showcases my ability to explain complex AI concepts in accessible ways, making technical processes understandable for diverse audiences.
           </p>
           <a 

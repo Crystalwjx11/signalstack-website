@@ -35,7 +35,7 @@ export default function AIPersonalityExperiment() {
 
       {/* Breadcrumb */}
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-4">
-        <div className="flex items-center space-x-2 text-sm text-gray-400">
+        <div className="flex items-center space-x-2 text-base text-gray-400">
           <a href="/insights" className="hover:text-cyan-400 transition-colors">Insights</a>
           <span>→</span>
           <span className="text-cyan-400">Every AI Has a Personality</span>
@@ -111,7 +111,7 @@ export default function AIPersonalityExperiment() {
             
             <div className="bg-blue-500/10 rounded-lg p-6 border border-blue-500/20 text-center">
               <p className="text-xl font-bold text-blue-200 mb-2">They disagreed on every single item.</p>
-              <p className="text-sm text-gray-400">Here's what I found:</p>
+              <p className="text-base text-gray-400">Here's what I found:</p>
             </div>
           </div>
 

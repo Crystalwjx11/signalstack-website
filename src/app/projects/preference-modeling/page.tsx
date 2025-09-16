@@ -33,7 +33,7 @@ export default function PreferenceModeling() {
 
       {/* Breadcrumb */}
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-4">
-        <div className="flex items-center space-x-2 text-sm text-gray-400">
+        <div className="flex items-center space-x-2 text-base text-gray-400">
           <a href="/projects" className="hover:text-purple-400 transition-colors">Projects</a>
           <span>→</span>
           <span className="text-purple-400">Human Preference Modeling Framework</span>
@@ -114,7 +114,7 @@ export default function PreferenceModeling() {
               <div>
                 <h4 className="text-lg font-semibold text-cyan-300 mb-3">Implementation</h4>
                 <div className="bg-cyan-500/10 rounded-lg p-4 border border-cyan-500/20">
-                  <p className="text-sm text-gray-300 mb-2">Example: Email Response Preferences</p>
+                  <p className="text-base text-gray-300 mb-2">Example: Email Response Preferences</p>
                   <p className="text-xs text-cyan-200">
                     CEO requesting quarterly update → Concise, data-focused, executive summary format<br/>
                     Junior dev asking same question → Detailed explanation, learning resources, step-by-step guidance

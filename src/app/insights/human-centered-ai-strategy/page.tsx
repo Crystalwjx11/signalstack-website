@@ -33,7 +33,7 @@ export default function HumanCenteredAIStrategy() {
 
       {/* Breadcrumb */}
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-4">
-        <div className="flex items-center space-x-2 text-sm text-gray-400">
+        <div className="flex items-center space-x-2 text-base text-gray-400">
           <a href="/insights" className="hover:text-cyan-400 transition-colors">Insights</a>
           <span>→</span>
           <span className="text-cyan-400">Human-Centered AI Product Strategy</span>
@@ -79,7 +79,7 @@ export default function HumanCenteredAIStrategy() {
             <h4 className="text-lg font-semibold text-blue-300 mb-3">The Old Way vs. The New Way</h4>
             <div className="grid md:grid-cols-2 gap-6">
               <div>
-                <h5 className="text-sm font-bold text-red-300 mb-2">Traditional AI Strategy</h5>
+                <h5 className="text-base font-bold text-red-300 mb-2">Traditional AI Strategy</h5>
                 <ul className="text-base text-gray-300 space-y-1">
                   <li>• Automate specific tasks</li>
                   <li>• Replace human roles</li>
@@ -88,7 +88,7 @@ export default function HumanCenteredAIStrategy() {
                 </ul>
               </div>
               <div>
-                <h5 className="text-sm font-bold text-green-300 mb-2">Human-Centered AI Strategy</h5>
+                <h5 className="text-base font-bold text-green-300 mb-2">Human-Centered AI Strategy</h5>
                 <ul className="text-base text-gray-300 space-y-1">
                   <li>• Amplify human capabilities</li>
                   <li>• Enable custom tool creation</li>

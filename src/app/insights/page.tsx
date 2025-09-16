@@ -101,8 +101,8 @@ export default function Insights() {
             </p>
             <div className="flex items-center justify-between">
               <div className="flex flex-wrap gap-1">
-                <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">Preference Modeling</span>
-                <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-xs">UX Research</span>
+                <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-sm">Preference Modeling</span>
+                <span className="px-2 py-1 bg-cyan-500/20 text-cyan-300 rounded text-sm">UX Research</span>
               </div>
               <a href="/projects/preference-modeling" className="text-cyan-400 text-sm font-medium hover:text-cyan-300 transition-colors">
                 Read More →
@@ -126,8 +126,8 @@ export default function Insights() {
             </p>
             <div className="flex items-center justify-between">
               <div className="flex flex-wrap gap-1">
-                <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">Product Strategy</span>
-                <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-xs">AI Ethics</span>
+                <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-sm">Product Strategy</span>
+                <span className="px-2 py-1 bg-blue-500/20 text-blue-300 rounded text-sm">AI Ethics</span>
               </div>
               <a href="/insights/human-centered-ai-strategy" className="text-blue-400 text-sm font-medium hover:text-blue-300 transition-colors">
                 Read More →
@@ -151,8 +151,8 @@ export default function Insights() {
             </p>
             <div className="flex items-center justify-between">
               <div className="flex flex-wrap gap-1">
-                <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Data Science</span>
-                <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-xs">Human Values</span>
+                <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-sm">Data Science</span>
+                <span className="px-2 py-1 bg-green-500/20 text-green-300 rounded text-sm">Human Values</span>
               </div>
               <a href="/insights/data-shapes-personality" className="text-green-400 text-sm font-medium hover:text-green-300 transition-colors">
                 Read More →
@@ -176,8 +176,8 @@ export default function Insights() {
             </p>
             <div className="flex items-center justify-between">
               <div className="flex flex-wrap gap-1">
-                <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Program Management</span>
-                <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-xs">Leadership</span>
+                <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-sm">Program Management</span>
+                <span className="px-2 py-1 bg-pink-500/20 text-pink-300 rounded text-sm">Leadership</span>
               </div>
               <a href="/insights/ai-personality-experiment" className="text-pink-400 text-sm font-medium hover:text-pink-300 transition-colors">
                 Read More →

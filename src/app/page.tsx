@@ -69,21 +69,21 @@ export default function Home() {
                   <div className="w-3 h-3 bg-blue-500 rounded-full mt-2"></div>
                   <div>
                     <h3 className="font-space-grotesk font-semibold text-gray-900 mb-2">Pattern Recognition in AI Behavior</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">When AI systems respond differently to the same prompt, I decode these patterns to understand how different training approaches shape AI behavior.</p>
+                    <p className="text-gray-600 text-base leading-relaxed">When AI systems respond differently to the same prompt, I decode these patterns to understand how different training approaches shape AI behavior.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-3 h-3 bg-emerald-500 rounded-full mt-2"></div>
                   <div>
                     <h3 className="font-space-grotesk font-semibold text-gray-900 mb-2">Human-Centric Experimentation</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Through systematic testing, I explore how AI can better serve diverse human needs across different contexts and cultures.</p>
+                    <p className="text-gray-600 text-base leading-relaxed">Through systematic testing, I explore how AI can better serve diverse human needs across different contexts and cultures.</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-4">
                   <div className="w-3 h-3 bg-purple-500 rounded-full mt-2"></div>
                   <div>
                     <h3 className="font-space-grotesk font-semibold text-gray-900 mb-2">Learning Through Practice</h3>
-                    <p className="text-gray-600 text-sm leading-relaxed">Every experiment teaches me something new about making AI systems that genuinely understand and serve human needs.</p>
+                    <p className="text-gray-600 text-base leading-relaxed">Every experiment teaches me something new about making AI systems that genuinely understand and serve human needs.</p>
                   </div>
                 </div>
               </div>
@@ -394,14 +394,14 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-yellow-500/10 rounded-lg p-4 border border-yellow-500/20">
               <h3 className="text-lg font-semibold text-yellow-300 mb-2">This Week's Question</h3>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-base">
                 "How do we measure AI 'helpfulness' when different people need completely different things from the same query?"
               </p>
             </div>
             
             <div className="bg-orange-500/10 rounded-lg p-4 border border-orange-500/20">
               <h3 className="text-lg font-semibold text-orange-300 mb-2">Current Experiment</h3>
-              <p className="text-gray-300 text-sm">
+              <p className="text-gray-300 text-base">
                 Testing how context changes what people consider "accurate" vs "useful" in AI responses.
               </p>
             </div>
@@ -417,7 +417,7 @@ export default function Home() {
           </div>
           
           <div className="text-center mt-4">
-            <p className="text-gray-400 text-sm italic">
+            <p className="text-gray-400 text-base italic">
               "The best questions are the ones that make you realize how little you actually knew before asking them."
             </p>
           </div>
@@ -454,7 +454,7 @@ export default function Home() {
             <div className="space-y-6">
               <div className="bg-gradient-to-r from-purple-800/20 to-pink-800/20 p-6 rounded-xl border border-purple-500/20">
                 <h4 className="text-lg font-bold text-white mb-2">Open To</h4>
-                <p className="text-gray-300 text-sm">
+                <p className="text-gray-300 text-base">
                   Collaborations, conversations about human-centric AI, and opportunities to learn from real-world AI experiments
                 </p>
               </div>

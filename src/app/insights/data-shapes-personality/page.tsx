@@ -33,7 +33,7 @@ export default function DataShapesPersonality() {
 
       {/* Breadcrumb */}
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-4">
-        <div className="flex items-center space-x-2 text-sm text-gray-400">
+        <div className="flex items-center space-x-2 text-base text-gray-400">
           <a href="/insights" className="hover:text-cyan-400 transition-colors">Insights</a>
           <span>→</span>
           <span className="text-cyan-400">Data Shapes a Model's Personality</span>
@@ -96,7 +96,7 @@ export default function DataShapesPersonality() {
           
           <div className="bg-blue-500/10 rounded-lg p-6 border border-blue-500/20 mb-6">
             <h4 className="text-lg font-semibold text-blue-300 mb-3">Key Findings</h4>
-            <ul className="space-y-2 text-gray-300 text-sm">
+            <ul className="space-y-2 text-gray-300 text-base">
               <li>• They disagreed on every prompt.</li>
               <li>• One flagged a Beatles song error, another ignored it.</li>
               <li>• One demanded strict scientific detail, others accepted simplifications.</li>
@@ -164,13 +164,13 @@ export default function DataShapesPersonality() {
           
           <div className="space-y-4">
             <div className="bg-yellow-500/10 rounded-lg p-4 border border-yellow-500/20">
-              <p className="text-sm text-gray-300">
+              <p className="text-base text-gray-300">
                 <strong className="text-yellow-300">Minor vs Major:</strong> Gemini flagged a minor song title 
                 ('I Can't Get No Satisfaction' vs. '(I Can't Get No) Satisfaction') as inaccurate. True, but it missed the point.
               </p>
             </div>
             <div className="bg-red-500/10 rounded-lg p-4 border border-red-500/20">
-              <p className="text-sm text-gray-300">
+              <p className="text-base text-gray-300">
                 <strong className="text-red-300">When It Matters:</strong> On asbestos, strictness mattered. 
                 "Synthetic vs natural" changes meaning entirely.
               </p>
@@ -208,7 +208,7 @@ export default function DataShapesPersonality() {
               style through data.
             </p>
             <div className="bg-purple-500/10 rounded-lg p-4 border border-purple-500/20">
-              <p className="text-sm text-purple-200">
+              <p className="text-base text-purple-200">
                 By guiding how borderline cases are judged, Surge has the chance to instill qualities like precision, 
                 generosity, creativity, or practicality into a model. It's the art of model character design.
               </p>

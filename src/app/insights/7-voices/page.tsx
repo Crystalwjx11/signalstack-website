@@ -33,7 +33,7 @@ export default function SevenVoices() {
 
       {/* Breadcrumb */}
       <div className="relative z-10 max-w-6xl mx-auto px-8 py-4">
-        <div className="flex items-center space-x-2 text-sm text-gray-400">
+        <div className="flex items-center space-x-2 text-base text-gray-400">
           <a href="/insights" className="hover:text-cyan-400 transition-colors">Insights</a>
           <span>→</span>
           <span className="text-cyan-400">7 Voices I Read Every Week</span>
@@ -82,7 +82,7 @@ export default function SevenVoices() {
               what gets built isn't just about technology—it's about values, incentives, and influence.
             </p>
             <div className="bg-purple-500/10 rounded-lg p-4">
-              <p className="text-sm text-purple-200">
+              <p className="text-base text-purple-200">
                 <strong>Why I read it:</strong> Power dynamics, funding flows, and the political reality of AI development
               </p>
             </div>
